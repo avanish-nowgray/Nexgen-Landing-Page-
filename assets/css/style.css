@@ -139,7 +139,7 @@ img {
 
 .section-title .content span {
   display: block;
-  color: #4ac728;
+  color: #92D050;
   text-transform: uppercase;
   margin-bottom: 5px;
   font-weight: 600;
@@ -278,7 +278,7 @@ img {
   height: 100%;
   border-radius: 30px;
   background: -webkit-gradient(linear, left top, right top, from(#49c628), color-stop(#53d23c), color-stop(#5ddd4e), color-stop(#66e95f), to(#70f570));
-  background: linear-gradient(to right, #49c628, #53d23c, #5ddd4e, #66e95f, #70f570);
+  background: linear-gradient(to right,#92D050, #7cdd6b, #5ddd4e, #84ec7e, #70f570);
   -webkit-transition: 0.5s;
   transition: 0.5s;
   z-index: -1;
@@ -292,8 +292,8 @@ img {
   width: 100%;
   height: 100%;
   border-radius: 30px;
-  background: -webkit-gradient(linear, left top, right top, from(#fc4a1a), color-stop(#fd6b12), color-stop(#fc8712), color-stop(#faa01f), to(#f7b733));
-  background: linear-gradient(to right, #fc4a1a, #fd6b12, #fc8712, #faa01f, #f7b733);
+  background: -webkit-gradient(linear, left top, right top, from(#808080), color-stop(#615f5e), color-stop(#fc8712), color-stop(#faa01f), to(#f7b733));
+  background: linear-gradient(to right, #808080,#949090, #494444,#808080,#bbb8b8);
   -webkit-transition: 0.5s;
   transition: 0.5s;
   z-index: -1;
@@ -670,7 +670,7 @@ Navbar Area CSS
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item a:hover, .evolta-nav .navbar .navbar-nav .nav-item a:focus, .evolta-nav .navbar .navbar-nav .nav-item a.active {
-  color: #4ac728;
+  color:#92D050;
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item a i {
@@ -1232,7 +1232,7 @@ Main Banner Area CSS
   position: absolute;
   left: 0;
   bottom: 0;
-  background: #4ac728;
+  background: #92D050;
   z-index: 1;
   width: 100%;
   max-width: 960px;
@@ -2000,7 +2000,7 @@ Why Choose Us Area CSS
   left: 0;
   right: 0;
   top: 0;
-  background: #4ac728;
+  background:#92D050;
   border-radius: 5px;
   padding: 25px;
   -webkit-transition: 0.5s;
@@ -2098,7 +2098,7 @@ Funfacts Area CSS
 }
 
 .single-funfacts .circlechart .circle-chart .circle-chart__circle {
-  stroke: #4ac728 !important;
+  stroke:#92D050 !important;
   stroke-width: 1.5;
 }
 
@@ -2580,7 +2580,7 @@ Team Area CSS
 
 .single-team-box .team-content h3 {
   margin-bottom: 0;
-  color: #4ac728;
+  color: #92D050;
   font-size: 23px;
   font-weight: 700;
 }
@@ -2673,7 +2673,7 @@ Testimonials Area CSS
 }
 
 .testimonials-inner-content {
-  background-color: #4ac728;
+  background-color: #92D050;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -3622,7 +3622,7 @@ Page Title Area CSS
 }
 
 .page-title-content ul li a {
-  color: #4ac728;
+  color: #92D050;
 }
 
 .page-title-content ul li a:hover {
@@ -5679,7 +5679,7 @@ Contact Area CSS
 }
 
 .contact-info ul li .icon {
-  border: 1px dashed #4ac728;
+  border: 1px dashed #92D050;
   width: 75px;
   height: 75px;
   line-height: 75px;
@@ -5702,12 +5702,12 @@ Contact Area CSS
   right: 0;
   top: 0;
   bottom: 0;
-  background: -webkit-gradient(linear, left top, right top, from(#49c628), color-stop(#53d23c), color-stop(#5ddd4e), color-stop(#66e95f), to(#70f570));
-  background: linear-gradient(to right, #49c628, #53d23c, #5ddd4e, #66e95f, #70f570);
+  background: -webkit-gradient(linear, left top, right top, from(#92D050), color-stop(#53d23c), color-stop(#5ddd4e), color-stop(#66e95f), to(#70f570));
+  background: linear-gradient(to right, #92D050, #53d23c, #92D050, #66e95f, #92D050);
   border-radius: 50%;
   margin: 6px;
-  -webkit-box-shadow: 0 1px 5px 1px #4ac728;
-          box-shadow: 0 1px 5px 1px #4ac728;
+  -webkit-box-shadow: 0 1px 5px 1px #92D050;
+          box-shadow: 0 1px 5px 1px #92D050;
   z-index: -1;
 }
 
@@ -6168,7 +6168,7 @@ Footer Area CSS
   bottom: 0;
   width: 40px;
   height: 2px;
-  background: #4ac728;
+  background: #92D050;
 }
 
 .single-footer-widget .footer-services-list {
@@ -6332,7 +6332,7 @@ Go Top CSS
   top: 0;
   right: 15px;
   color: #ffffff;
-  background-color: #4ac728;
+  background-color: #92D050;
   z-index: 4;
   width: 40px;
   text-align: center;

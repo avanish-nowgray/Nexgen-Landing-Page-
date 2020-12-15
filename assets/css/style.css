@@ -1980,12 +1980,12 @@ Why Choose Us Area CSS
 }
 
 .single-choose-box .title h3 {
-  background-color: #4ac728;
+  background-color:#92D050;
   color: #ffffff;
   display: inline;
   white-space: pre-wrap;
-  -webkit-box-shadow: -7px 0 0 #4ac728;
-          box-shadow: -7px 0 0 #4ac728;
+  -webkit-box-shadow: -7px 0 0#92D050;
+          box-shadow: -7px 0 0#92D050;
   font-size: 23px;
   font-weight: 700;
   padding-left: 0;
@@ -2634,7 +2634,7 @@ Testimonials Area CSS
   width: 90px;
   height: 90px;
   line-height: 90px;
-  background-color: #4ac728;
+  background-color: #92D050;
   border-radius: 50%;
   color: #ffffff;
   z-index: 1;
@@ -2881,7 +2881,7 @@ Blog Area CSS
 .single-blog-post.sticky .entry-post-content {
   margin-top: 0;
   padding: 25px;
-  background-color: #4ac728;
+  background-color:#92D050;
   border-radius: 5px;
 }
 

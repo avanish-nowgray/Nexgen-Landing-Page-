@@ -47,6 +47,9 @@ Default CSS
 =================================================*/
 @import url("https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap");
+
+
+
 body {
   padding: 0;
   margin: 0;
@@ -669,9 +672,9 @@ Navbar Area CSS
   margin-right: 13px;
 }
 
-.evolta-nav .navbar .navbar-nav .nav-item a:hover, .evolta-nav .navbar .navbar-nav .nav-item a:focus, .evolta-nav .navbar .navbar-nav .nav-item a.active {
-  color:#92D050;
-}
+/* .evolta-nav .navbar .navbar-nav .nav-item a:hover, .evolta-nav .navbar .navbar-nav .nav-item a:focus, .evolta-nav .navbar .navbar-nav .nav-item a.active {
+ color:#92D050; 
+} */
 
 .evolta-nav .navbar .navbar-nav .nav-item a i {
   font-size: 10px;
@@ -6097,7 +6100,7 @@ Footer Area CSS
   position: relative;
   z-index: 1;
   padding-top: 100px;
-  background-color: #182c51;
+  background-color: #4C4C4C;
 }
 
 .single-footer-widget {
@@ -6252,7 +6255,7 @@ Footer Area CSS
 }
 
 .copyright-area {
-  background-color: #0d1d3b;
+  background-color: #000000;
   margin-top: 70px;
   padding-top: 20px;
   padding-bottom: 20px;

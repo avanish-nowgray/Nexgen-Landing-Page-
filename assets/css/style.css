@@ -1087,9 +1087,9 @@ Navbar Area CSS
   .evolta-responsive-nav .evolta-responsive-menu.mean-container .mean-nav ul {
     font-size: 14px;
   }
-  .evolta-responsive-nav .evolta-responsive-menu.mean-container .mean-nav ul li a.active {
+  /* .evolta-responsive-nav .evolta-responsive-menu.mean-container .mean-nav ul li a.active {
     color: #4ac728;
-  }
+  } */
   .evolta-responsive-nav .evolta-responsive-menu.mean-container .mean-nav ul li li a {
     font-size: 13.5px;
   }

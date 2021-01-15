@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61989169-9"></script>
     <script>
@@ -32,7 +32,7 @@
     <link rel="stylesheet" href="sideicons.html">
 
 
-    <title>Nowgray.com | Boosting your business by 150% - Innovate. Achieve. Lead</title>
+    <title>API Landing Page</title>
 
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
     <style type="text/css" id="#jarallax-clip-0">
@@ -46,12 +46,93 @@
             clip: rect(0 1519.2000732421875px 440.20001220703125px 0);
             clip: rect(0, 1519.2000732421875px, 440.20001220703125px, 0);
         }
+
+        .main-banner-content {
+        height: 600px;
+        position: relative;
+        z-index: 1;
+        padding-left: 75px;
+        padding-right: 30px;
+        }
+        /*--------------------------------------------------------------
+# Counter Section
+--------------------------------------------------------------*/
+.counter {
+    padding: 50px 0px;
+}
+.counter .count-card {
+    box-shadow: 25px 27px 10px -24px #e8e8e8;
+    padding: 30px;
+    width: 100%;
+    background: #fff;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    border-bottom-right-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    z-index: 99999;
+}
+.counter .count-card::after {
+    content: '';
+    position: absolute;
+    background: #ebe7e7;
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 100%;
+    transition: all 0.3s;
+    z-index: -1;
+}
+.counter .count-card:hover::after {
+    background: #ebe7e7;
+    width: 100%;
+    height: 100%;
+}
+.counter .count-card i {
+  display: block;
+  font-size: 30px;
+  color: #92D050;
+  float: left;
+}
+.counter .count-card span {
+    font-size: 42px;
+    line-height: 24px;
+    display: block;
+    font-weight: 700;
+    color: #607d8b;
+    margin-left: 50px;
+}
+.counter .count-card p {
+    font-size: 14px;
+    text-align: right;
+}
+.counter .count-card h3 {
+    font-size: 20px;
+    margin-top: 36px;
+    text-transform: uppercase;
+    text-align: right;
+    color: #607d8b;
+}
+.counter .count-card a {
+    font-weight: 600;
+    display: block;
+    border-top: 2px dashed #92D050;
+    margin-top: 20px;
+    padding-top: 20px;
+    color: #92D050;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: right;
+}
+.counter .count-card a:hover {
+    color: #607d8b;
+}
     </style>
 </head>
 
 <body data-new-gr-c-s-check-loaded="14.984.0" data-gr-ext-installed="" style="cursor: auto;">
 
-    <!-- Start Preloader Area -->
+    <!-- Start Landing Page Preloader Area -->
     <div class="preloader preloader-deactivate">
         <div class="sk-circle">
             <div class="sk-circle1 sk-child"></div>
@@ -68,9 +149,9 @@
             <div class="sk-circle12 sk-child"></div>
         </div>
     </div>
-    <!-- End Preloader Area -->
+    <!-- End Landing Page Preloader Area -->
 
-    <!-- Start Navbar Area -->
+    <!-- Start Landing Page Navbar Area -->
     <div class="navbar-area">
         <div class="evolta-responsive-nav">
             <div class="container">
@@ -93,7 +174,7 @@
                         <!-- <img src="assets/img/logo-gray.png" alt="logo"> -->
                     </a>
 
-                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent" style="display: block;">
+                    <!-- <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent" style="display: block;">
                         <ul class="navbar-nav">
                             <li class="nav-item"><a href="index.html" class="nav-link active">Home</a>
                             </li>
@@ -128,44 +209,46 @@
 
                             <a href="https://nowgray.com/contact-us/" class="btn btn-primary">Free Quote</a>
                         </div>
-                    </div>
+                    </div> -->
+
+
                 </nav>
             </div>
         </div>
     </div>
-    <!-- End Navbar Area -->
+    <!-- End Landing Page Navbar Area -->
 
-    <!-- Start Main Banner Area -->
+    <!-- Start Landing Page Main Banner Area -->
     <div class="main-banner">
         <div class="container-fluid p-0">
             <div class="row m-0">
-                <div class="col-lg-7 col-md-12 p-0">
+                <div class="col-lg-12 col-md-12 p-0">
                     <div class="main-banner-content">
                         <div class="d-table">
                             <div class="d-table-cell">
-                                <h2>ARE YOU TRYING TO BOOST YOUR BUSINESS?</h2>
-                                <h2>Create Amazing Business Websites</h2>
-                                <p>If you are thinking to bring your business online, you are thinking right. This is
+                                <h1 style="text-align: center;">API DEVELOPMENT & SUPPORT SERVICES FOR </h1>
+                                <h1 style="text-align: center;">YOUR BUSINESS</h1>
+                                <!-- <p>If you are thinking to bring your business online, you are thinking right. This is
                                     the time to do so changes in business presence. Please see the following steps that
-                                    are needed to get your business online and reach customers across the globe…</p>
+                                    are needed to get your business online and reach customers across the globe…</p> -->
 
-                                <div class="btn-box">
+                                <div class="btn-box" style="text-align: center;">
                                     <!-- <a href="#" class="btn btn-primary">Read More</a> -->
-                                    <a href="https://nowgray.com/contact-us/" class="btn btn-light">Get Started</a>
+                                    <a href="https://nowgray.com/" class="btn btn-light">Get Started</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-5 col-md-12 p-0">
+                <!-- <div class="col-lg-5 col-md-12 p-0">
                     <div class="main-banner-image">
                         <img src="assets/img/banner-img1.png" alt="image">
 
                         <a href="https://www.youtube.com/watch?v=rrdzvfXXt3k" class="video-btn popup-youtube"><i
                                 class="flaticon-play-button"></i></a>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <div class="banner-inner-content">
@@ -186,7 +269,7 @@
                                 <i class="flaticon-programming-code"></i>
                             </div>
 
-                            <h3><a href="#">Development <i class="flaticon-add-1"></i></a></h3>
+                            <h3><a href="#">API Development <i class="flaticon-add-1"></i></a></h3>
                         </div>
                     </div>
 
@@ -218,23 +301,23 @@
         <div class="shape11"><img src="assets/img/shape/11.png" alt="image"></div>
         <div class="shape12"><img src="assets/img/shape/12.png" alt="image"></div>
     </div>
-    <!-- End Main Banner Area -->
+    <!-- End Landing Page Main Banner Area -->
 
-    <!-- Start Services Area -->
+    <!-- Start Landing Page Services Area -->
     <section class="services-area ptb-110">
         <div class="container">
             <div class="section-title">
-                <div class="content">
-                    <span>Our Services</span>
-                    <h2>WE CAN HELP YOU WITH </h2>
+                <div class="text-center">
+                    <!-- <span>Our Services</span> -->
+                    <h2>Industry Experienced Developers, On-Demand</h2>
                     <p>Promote your business, showcase your art, set up an online shop or just test out new ideas.
                         Nowgray.com has everything you need to create a fully personalized, high-quality website &
                         application.</p>
                 </div>
 
-                <div class="image">
+                <!-- <div class="image">
                     <img src="assets/img/section-title/1.png" alt="image">
-                </div>
+                </div> -->
             </div>
 
             <div class="row">
@@ -277,7 +360,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <!-- <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-services-box">
                         <div class="icon">
                             <i class="flaticon-code"></i>
@@ -315,60 +398,79 @@
                         <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
 
         <div class="shape13"><img src="assets/img/shape/13.svg" alt="image"></div>
         <div class="shape14"><img src="assets/img/shape/13.svg" alt="image"></div>
     </section>
-    <!-- End Services Area -->
+    <!-- End Landing Page Services Area -->
 
-    <!-- Start About Area -->
+    <!-- Start Landing Page About Area -->
     <section class="about-area">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-image">
-                        <img src="assets/undraw_design_feedback_dexe.png" alt="image">
+                        <img src="assets/img/logo-gray.png" alt="image">
+                        <h2>We’ve Been in the Tech Business for Seven Years </h2>
                     </div>
                 </div>
 
                 <div class="col-lg-6 col-md-12">
-                    <div class="about-content">
-                        <span>About Us</span>
-                        <h2>We’ve Been in the Tech Business for Seven Years </h2>
-                        <p>Nowgray.com is an IT solutions expert team providing software development, 
+                    <div class="about-content list-group-item">
+                        <h4 class="pl-4">API Projects</h4>
+                        <!-- <h2>We’ve Been in the Tech Business for Seven Years </h2> -->
+                    <ul style="list-style: none;">
+                        <li><a href="#">AGRICULTURE</a></li>
+                        <li><a href="#">AVIATION</a></li>
+                        <li><a href="#">HUMAN CAPITAL MANAGEMENT</a></li>
+                        <li><a href="#">MEETINGS & EVENTS</a></li>
+                        <li><a href="#">HEALTHCARE</a></li>
+                    </ul>
+                        <!-- <p>Nowgray.com is an IT solutions expert team providing software development, 
                             content writing, marketing, and graphic designing and more services to businesses 
                             located in Asia and America since 2013.
                             We are registered as Nowgray IT Services Pvt Ltd.
-                            </p>
-                        <a href="https://nowgray.com/about/" class="btn btn-primary">View More</a>
+                            </p> -->
+                        <a href="#" class="btn btn-primary">View More</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End About Area -->
+    <!-- End Landing Page About Area -->
 
-    <!-- Start Why Choose Us Area -->
+    <!-- Start Landing Page Why Choose Us Area -->
     <section class="why-choose-area ptb-110">
         <div class="container">
+            <h2 class="text-center pb-4">Software Development Done Right</h2>
             <div class="section-title">
+                <div class="image">
+                    <img src="assets/api.png" alt="image">
+                </div>
+
                 <div class="content">
-                    <span>Why choose us</span>
-                    <h2>7 YEARS OF EXPERIENCE</h2>
-                    <h5>IN DIGITAL MARKETING & WEB DESIGNING SERVICES</h5>
+                    <!-- <span>Why choose us</span>
+                    <h2>7 YEARS OF EXPERIENCE</h2> -->
+                    <h5>Real-Time Communication</h5>
+                    <p> Promote your business, showcase your art, set up an online shop or just test out new ideas.
+                        Nowgray.com has everything you need to create a fully personalized, high-quality website &
+                        application.</p>
+
+                        <h5 class="pt-4">Scalable Business Model</h5>
+                    <p> Promote your business, showcase your art, set up an online shop or just test out new ideas.
+                        Nowgray.com has everything you need to create a fully personalized, high-quality website &
+                        application.</p>
+
+                        <h5 class="pt-4">You Own The Source Code</h5>
                     <p> Promote your business, showcase your art, set up an online shop or just test out new ideas.
                         Nowgray.com has everything you need to create a fully personalized, high-quality website &
                         application.</p>
                 </div>
-
-                <div class="image">
-                    <img src="assets/undraw_Problem_solving_re_4gq3.png" alt="image">
-                </div>
             </div>
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-choose-box">
                         <img src="assets/img/why-choose-us/1.png" alt="image">
@@ -425,84 +527,68 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
 
         <div class="shape14"><img src="assets/img/shape/13.svg" alt="image"></div>
         <div class="shape15"><img src="assets/img/shape/13.svg" alt="image"></div>
     </section>
-    <!-- End Why Choose Us Area -->
+    <!-- End Landing Page Why Choose Us Area -->
 
-    <!-- Start FunFacts Area -->
-    <section class="funfacts-area ptb-110 bg-f2feee">
+    <!-- Start Landing Page FunFacts Area -->
+    <!-- ======= Counter Section ======= -->
+    <section class="counter bg-light">
         <div class="container">
             <div class="row">
-                <div class="col-6 col-lg-3 col-md-3 col-sm-4">
-                    <div class="single-funfacts">
-                        <div class="circlechart" data-percentage="60"><svg class="circle-chart"
-                                viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
-                                <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
-                                <circle class="circle-chart__circle success-stroke" stroke-dasharray="60,100" cx="16.9"
-                                    cy="16.9" r="15.9"></circle>
-                                <g class="circle-chart__info"> <text class="circle-chart__percent" x="17.9"
-                                        y="17.1">60%</text> </g>
-                            </svg></div>
-                        <span>Design</span>
-                        <h3>Codes</h3>
+                <div class="col-lg-3 col-md-6">
+                    <div class="count-card">
+                        <i class="far fa-smile"></i>
+                        <span data-toggle="counter-up">331+</span>
+                        <h3>Happy Clients</h3>
+                        <p>The objective of this guideline is to provide best practice guidance to improve the ability</p>
+                        <a href="#">Read More »</a>
                     </div>
                 </div>
 
-                <div class="col-6 col-lg-3 col-md-3 col-sm-4">
-                    <div class="single-funfacts">
-                        <div class="circlechart" data-percentage="75"><svg class="circle-chart"
-                                viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
-                                <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
-                                <circle class="circle-chart__circle success-stroke" stroke-dasharray="75,100" cx="16.9"
-                                    cy="16.9" r="15.9"></circle>
-                                <g class="circle-chart__info"> <text class="circle-chart__percent" x="17.9"
-                                        y="17.1">75%</text> </g>
-                            </svg></div>
-                        <span>Our happy</span>
-                        <h3>Clients</h3>
+              <div class="col-lg-3 col-md-6">
+                    <div class="count-card">
+                        <i class="fas fa-project-diagram"></i>
+                        <span data-toggle="counter-up">722+</span>
+                        <h3>Scope</h3>
+                        <p>The objective of this guideline is to provide best practice guidance to improve the ability</p>
+                        <a href="#">Read More »</a>
                     </div>
-                </div>
+              </div>
 
-                <div class="col-6 col-lg-3 col-md-3 col-sm-4">
-                    <div class="single-funfacts">
-                        <div class="circlechart" data-percentage="85"><svg class="circle-chart"
-                                viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
-                                <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
-                                <circle class="circle-chart__circle success-stroke" stroke-dasharray="85,100" cx="16.9"
-                                    cy="16.9" r="15.9"></circle>
-                                <g class="circle-chart__info"> <text class="circle-chart__percent" x="17.9"
-                                        y="17.1">85%</text> </g>
-                            </svg></div>
-                        <span>Projects</span>
-                        <h3>Design</h3>
+              <div class="col-lg-3 col-md-6">
+                    <div class="count-card">
+                        <i class="far fa-question-circle"></i>
+                        <span data-toggle="counter-up">526+</span>
+                        <h3>Support</h3>
+                        <p>The objective of this guideline is to provide best practice guidance to improve the ability</p>
+                        <a href="#">Read More »</a>
                     </div>
-                </div>
+              </div>
 
-                <div class="col-6 col-lg-3 col-md-3 col-sm-4 offset-lg-0 offset-md-0 offset-sm-4">
-                    <div class="single-funfacts">
-                        <div class="circlechart" data-percentage="95"><svg class="circle-chart"
-                                viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
-                                <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
-                                <circle class="circle-chart__circle success-stroke" stroke-dasharray="95,100" cx="16.9"
-                                    cy="16.9" r="15.9"></circle>
-                                <g class="circle-chart__info"> <text class="circle-chart__percent" x="17.9"
-                                        y="17.1">95%</text> </g>
-                            </svg></div>
-                        <span>Completed</span>
-                        <h3>Projects</h3>
+              <div class="col-lg-3 col-md-6">
+                    <div class="count-card">
+                        <i class="fas fa-users"></i>
+                        <span data-toggle="counter-up">100+</span>
+                        <h3>Our Team</h3>
+                        <p>The objective of this guideline is to provide best practice guidance to improve the ability</p>
+                        <a href="#">Read More »</a>
                     </div>
-                </div>
+              </div>
             </div>
         </div>
     </section>
-    <!-- End FunFacts Area -->
+    <!-- End counter Section -->
+    <!-- End Landing Page FunFacts Area -->
 
-    <!-- Start CTA Area -->
-    <section class="cta-area jarallax" data-jarallax="{&quot;speed&quot;: 0.3}" data-jarallax-original-styles="null"
+    <!-- Start Landing Page CTA Area -->
+
+
+    <!-- <section class="cta-area jarallax" data-jarallax="{&quot;speed&quot;: 0.3}" data-jarallax-original-styles="null"
         style="background-image: assets/img/2.png; background-attachment: scroll; background-size: auto;">
         <div class="container">
             <div class="cta-content">
@@ -517,10 +603,12 @@
                 style="background-position: 50% 50%; background-size: 100%; background-repeat: no-repeat; background-image: url(assets/img/2.png;); position: fixed; top: 0px; left: 0px; width: 1519.2px; height: 854.55px; overflow: hidden; pointer-events: none; margin-left: 0px; margin-top: -188.275px; visibility: visible; transform: translateY(1142.49px) translateZ(0px);">
             </div>
         </div>
-    </section>
-    <!-- End CTA Area -->
+    </section> -->
 
-    <!-- Start Projects Area -->
+
+    <!-- End Landing Page CTA Area -->
+
+    <!-- Start Landing Page Projects Area -->
     <section class="projects-area ptb-110">
         <div class="container">
             <div class="section-title">
@@ -654,111 +742,6 @@
                                 </div>
                             </div>
                         </div>
-
-
-
-
-
-
-
-
-
-                        <!-- <div class="owl-item active" style="width: 387.5px;">
-                            <div class="col-lg-12 col-md-12">
-                                <div class="single-projects-box">
-                                    <a href="#"><img src="assets/img/projects/ng8.jpg" alt="image"></a>
-
-                                    <div class="projects-content">
-                                        <span>Idea</span>
-                                        <h3><a href="#">Big Data Analysis</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                                            ultrices gravida. Risus commodo viverra maecenas.</p>
-                                        <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item active" style="width: 387.5px;">
-                            <div class="col-lg-12 col-md-12">
-                                <div class="single-projects-box">
-                                    <a href="#"><img src="assets/img/projects/ng9.jpg" alt="image"></a>
-
-                                    <div class="projects-content">
-                                        <span>Guard</span>
-                                        <h3><a href="#">Cyber Security</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                                            ultrices gravida. Risus commodo viverra maecenas.</p>
-                                        <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 387.5px;">
-                            <div class="col-lg-12 col-md-12">
-                                <div class="single-projects-box">
-                                    <a href="#"><img src="assets/img/projects/ng10.jpg" alt="image"></a>
-
-                                    <div class="projects-content">
-                                        <span>Design/Idea</span>
-                                        <h3><a href="#">Flutter Development</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                                            ultrices gravida. Risus commodo viverra maecenas.</p>
-                                        <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 387.5px;">
-                            <div class="col-lg-12 col-md-12">
-                                <div class="single-projects-box">
-                                    <a href="#"><img src="assets/img/projects/ng11.jpg" alt="image"></a>
-
-                                    <div class="projects-content">
-                                        <span>Design/Development</span>
-                                        <h3><a href="#">Application Development</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                                            ultrices gravida. Risus commodo viverra maecenas.</p>
-                                        <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 387.5px;">
-                            <div class="col-lg-12 col-md-12">
-                                <div class="single-projects-box">
-                                    <a href="#"><img src="assets/img/projects/ng12.jpg" alt="image"></a>
-
-                                    <div class="projects-content">
-                                        <span>Design</span>
-                                        <h3><a href="#">Web Development</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                                            ultrices gravida. Risus commodo viverra maecenas.</p>
-                                        <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 387.5px;">
-                            <div class="col-lg-12 col-md-12">
-                                <div class="single-projects-box">
-                                    <a href="#"><img src="assets/img/projects/ng6.jpg" alt="image"></a>
-
-                                    <div class="projects-content">
-                                        <span>Idea</span>
-                                        <h3><a href="#">Big Data Analysis</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                                            ultrices gravida. Risus commodo viverra maecenas.</p>
-                                        <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
                 <!-- <div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><i
@@ -772,10 +755,10 @@
         <div class="shape13"><img src="assets/img/shape/13.svg" alt="image"></div>
         <div class="shape15"><img src="assets/img/shape/13.svg" alt="image"></div>
     </section>
-    <!-- End Projects Area -->
+    <!-- End Landing Page Projects Area -->
 
-    <!-- Start Partner Area -->
-    <div class="partner-area bg-f2feee">
+    <!-- Start Landing Page Partner Area -->
+    <!-- <div class="partner-area bg-f2feee">
         <div class="container">
             <div class="partner-list">
                 <div class="partner-item">
@@ -809,11 +792,11 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- End Partner Area -->
+    </div> -->
+    <!-- End Landing Page Partner Area -->
 
-    <!-- Start Team Area -->
-       <section class="team-area ptb-110">
+    <!-- Start Landing Page Team Area -->
+       <!-- <section class="team-area ptb-110">
         <div class="container">
             <div class="section-title">
                 <div class="content">
@@ -846,7 +829,7 @@
 
                                 <ul class="social">
                                     <li><a href="https://www.facebook.com/akshaykmishra" target="_blank"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                                    <!-- <li><a href="#" target="_blank"><i class="flaticon-twitter-black-shape"></i></a></li> -->
+                                    <li><a href="#" target="_blank"><i class="flaticon-twitter-black-shape"></i></a></li>
                                     <li><a href="https://www.instagram.com/akshaykmishra/?hl=en" target="_blank"><i class="flaticon-instagram-logo"></i></a></li>
                                     <li><a href="https://www.linkedin.com/in/akshaykmishra/" target="_blank"><i class="flaticon-linkedin-letters"></i></a></li>
                                 </ul>
@@ -866,7 +849,7 @@
 
                                 <ul class="social">
                                     <li><a href="https://www.facebook.com/singhharita" target="_blank"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                                    <!-- <li><a href="#" target="_blank"><i class="flaticon-twitter-black-shape"></i></a></li> -->
+                                    <li><a href="#" target="_blank"><i class="flaticon-twitter-black-shape"></i></a></li>
                                     <li><a href="https://www.instagram.com/harita.singh/?hl=en" target="_blank"><i class="flaticon-instagram-logo"></i></a></li>
                                     <li><a href="https://www.linkedin.com/in/harita-singh/" target="_blank"><i class="flaticon-linkedin-letters"></i></a></li>
                                 </ul>
@@ -886,7 +869,7 @@
 
                                 <ul class="social">
                                     <li><a href="https://www.facebook.com/maheshpandey.ng" target="_blank"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                                    <!-- <li><a href="#" target="_blank"><i class="flaticon-twitter-black-shape"></i></a></li> -->
+                                    <li><a href="#" target="_blank"><i class="flaticon-twitter-black-shape"></i></a></li>
                                     <li><a href="https://www.instagram.com/maheshpandey100/?hl=en" target="_blank"><i class="flaticon-instagram-logo"></i></a></li>
                                     <li><a href="https://www.linkedin.com/in/mahesh-pandey-7b845991/" target="_blank"><i class="flaticon-linkedin-letters"></i></a></li>
                                 </ul>
@@ -906,7 +889,7 @@
 
                                 <ul class="social">
                                     <li><a href="#" target="_blank"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                                    <!-- <li><a href="#" target="_blank"><i class="flaticon-twitter-black-shape"></i></a></li> -->
+                                    <li><a href="#" target="_blank"><i class="flaticon-twitter-black-shape"></i></a></li>
                                     <li><a href="https://www.instagram.com/_priyankajais/?hl=en" target="_blank"><i class="flaticon-instagram-logo"></i></a></li>
                                     <li><a href="https://www.linkedin.com/in/priyanka-jaiswal-" target="_blank"><i class="flaticon-linkedin-letters"></i></a></li>
                                 </ul>
@@ -923,11 +906,11 @@
 
         <div class="shape13"><img src="assets/img/shape/13.svg" alt="image"></div>
         <div class="shape14"><img src="assets/img/shape/13.svg" alt="image"></div>
-    </section>
-    <!-- End Team Area -->
+    </section> -->
+    <!-- End Landing Page Team Area -->
 
-    <!-- Start Testimonials Area -->
-    <section class="testimonials-area">
+    <!-- Start Landing Page Testimonials Area -->
+    <!-- <section class="testimonials-area">
         <div class="container-fluid p-0">
             <div class="testimonials-inner-area jarallax" data-jarallax="{&quot;speed&quot;: 0.3}"
                 data-jarallax-original-styles="null"
@@ -966,7 +949,7 @@
 
                                             <h3>Rebekah Near</h3>
                                             <span>CEO, Orca Information Inc.</span>
-                                        </div>
+                                        </div> -->
                                         <!-- </div></div><div class="owl-item active" style="width: 775px;"><div class="single-testimonials-item">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra.</p>
 
@@ -1012,7 +995,7 @@
                                     <h3>Steven Smith</h3>
                                     <span>Marketing</span>
                                 </div> -->
-                                    </div>
+                                    <!-- </div>
                                 </div>
                             </div>
                         </div>
@@ -1036,19 +1019,19 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- End Testimonials Area -->
+    </section> -->
+    <!-- End Landing Page Testimonials Area -->
 
-    <!-- Start Blog Area -->
-    <section class="blog-area extra-pb ptb-110">
+    <!-- Start Landing Page Blog Area -->
+    <!-- <section class="blog-area extra-pb ptb-110">
         <div class="container">
             <div class="section-title">
                 <div class="content">
                     <span>Latest News</span>
                     <h2>Our Latest Insights Are On Top All Times</h2>
-                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Quis suspendisse ultrices gravida. Risus commodo viverra maecenas
-                        accumsan lacus vel facilisis.</p> -->
+                        accumsan lacus vel facilisis.</p>
                 </div>
 
                 <div class="image">
@@ -1214,10 +1197,10 @@
 
         <div class="shape13"><img src="assets/img/shape/13.svg" alt="image"></div>
         <div class="shape14"><img src="assets/img/shape/13.svg" alt="image"></div>
-    </section>
-    <!-- End Blog Area -->
+    </section> -->
+    <!-- End Landing Page Blog Area -->
 
-    <!-- Start Footer Area -->
+    <!-- Start Landing Page Footer Area -->
     <footer class="footer-area">
         <div class="container">
             <div class="row">
@@ -1304,7 +1287,7 @@
 
         <div class="circle-map"><img src="assets/img/circle-map.png" alt="image"></div>
     </footer>
-    <!-- End Footer Area -->
+    <!-- End Landing Page Footer Area -->
 
     <div class="go-top"><i class="fas fa-arrow-up"></i><i class="fas fa-arrow-up"></i></div>
 

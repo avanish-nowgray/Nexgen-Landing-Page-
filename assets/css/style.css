@@ -1141,8 +1141,8 @@ Main Banner Area CSS
 
 .main-banner-content h1 {
   margin-bottom: 0;
-  margin-top: -60px;
-  font-size: 80px;
+  margin-top: 0px;
+  font-size: 50px;
   font-weight: 700;
 }
 

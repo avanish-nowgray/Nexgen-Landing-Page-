@@ -289,7 +289,7 @@
 			nav: true,
 			dots: false,
 			autoplayHoverPause: true,
-            autoplay: false,
+            autoplay: true,
             mouseDrag: false,
             navText: [
                 "<i class='flaticon-arrow-pointing-to-left'></i>",

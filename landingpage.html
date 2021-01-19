@@ -127,6 +127,156 @@
 .counter .count-card a:hover {
     color: #607d8b;
 }
+/* Start Rating Area CSS */
+
+    /************************/
+/*     05. Features     */
+/************************/
+.tabs {
+	padding-top: 6.5rem;
+	padding-bottom: 4.25rem;
+	background-color: #f8f9fa;
+}
+
+.tabs h2 {
+	margin-bottom: 1.125rem;
+	text-align: center;
+}
+
+.tabs .p-heading {
+	margin-bottom: 3.125rem;
+}
+
+.tabs .nav-tabs {
+	margin-right: auto;
+	margin-bottom: 2.5rem;
+	margin-left: auto;
+	justify-content: center;
+	border-bottom: none;
+}
+
+.tabs .nav-link {
+	margin-bottom: 1rem;
+	padding: 0.5rem 1.375rem 0.25rem 1.375rem;
+	border: none;
+	border-bottom: 0.1875rem solid #f1f1f8;
+	border-radius: 0;
+	color: #92D050;
+	font: 700 1rem/1.75rem "Montserrat", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+.tabs .nav-link.active,
+.tabs .nav-link:hover {
+	border-bottom: 0.1875rem solid #92D050;
+	background-color: transparent;
+	color: #92D050;
+}
+
+.tabs .nav-link .fas {
+	margin-right: 0.375rem;
+	font-size: 1rem;
+}
+
+.tabs .tab-content {
+	width: 100%; /* for proper display in IE11 */
+}
+
+.tabs .card {
+	border: none;
+	background: transparent;
+}
+
+.tabs .card-body {
+	padding: 1rem 0 1.25rem 0;
+}
+
+.tabs .card-title {
+	margin-bottom: 0.5rem;
+}
+
+.tabs .card .card-icon {
+	display: inline-block;
+	width: 3.5rem;
+	height: 3.5rem;
+	border-radius: 50%;
+	background-color: #92D050;
+	text-align: center;
+	vertical-align: top;
+}
+
+.tabs .card .card-icon .fas,
+.tabs .card .card-icon .far {
+	color: #fff;
+	font-size: 1.75rem;
+	line-height: 3.5rem;
+}
+
+.tabs #tab-1 .card.left-pane .text-wrapper {
+	display: inline-block;
+	width: 75%;
+}
+
+.tabs #tab-1 .card.left-pane .card-icon {
+	float: left;
+	margin-right: 1rem;
+}
+
+.tabs #tab-1 img {
+	display: block;
+	margin: 2rem auto 3rem auto;
+}
+
+.tabs #tab-1 .card.right-pane .text-wrapper {
+	display: inline-block;
+	width: 75%;
+}
+
+.tabs #tab-1 .card.right-pane .card-icon {
+	margin-right: 1rem;
+}
+
+.tabs #tab-2 img {
+	display: block;
+	margin: 0 auto 2rem auto;
+}
+
+.tabs #tab-2 .text-area {
+	margin-top: 1.5rem;
+}
+
+.tabs #tab-2 h3 {
+	margin-bottom: 0.75rem;
+}
+
+.tabs #tab-2 .icon-cards-area {
+	margin-top: 2.5rem;
+}
+
+.tabs #tab-2 .icon-cards-area .card {
+	width: 100%; /* for proper display in IE11 */
+}
+
+.tabs #tab-3 .icon-cards-area .card {
+	width: 100%; /* for proper display in IE11 */
+}
+
+.tabs #tab-3 .text-area {
+	margin-top: 0.75rem;
+	margin-bottom: 4rem;
+}
+
+.tabs #tab-3 h3 {
+	margin-bottom: 0.75rem;
+}
+
+.tabs #tab-3 img {
+	margin: 0 auto 3rem auto;
+}
+
+
+/* Close Rating Area CSS */
     </style>
 </head>
 
@@ -359,46 +509,6 @@
                         <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
                     </div>
                 </div>
-
-                <!-- <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-services-box">
-                        <div class="icon">
-                            <i class="flaticon-code"></i>
-                        </div>
-
-                        <h3><a href="#">UX Design </a></h3>
-                        <p>User experience (UX) design takes opinions and guesswork out of the equation. We apply
-                            research to give your customers what they actually want.</p>
-                        <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-services-box">
-                        <div class="icon">
-                            <i class="flaticon-application"></i>
-                        </div>
-
-                        <h3><a href="#">Strategy</a></h3>
-                        <p>We understand business. That’s why we begin every project with a workshop — crafting a
-                            one-of-a-kind, unique strategy that is designed to help you win.</p>
-                        <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-services-box">
-                        <div class="icon">
-                            <i class="flaticon-cyber-security"></i>
-                        </div>
-
-                        <h3><a href="#">E-Commerce & CMS</a></h3>
-                        <p>We offer custom web application development solutions for Joomla, WordPress, PHP, CMS
-                            Development. Hire us for website development services.</p>
-                        <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
-                    </div>
-                </div>
-            </div> -->
         </div>
 
         <div class="shape13"><img src="assets/img/shape/13.svg" alt="image"></div>
@@ -469,65 +579,6 @@
                         application.</p>
                 </div>
             </div>
-
-            <!-- <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-choose-box">
-                        <img src="assets/img/why-choose-us/1.png" alt="image">
-
-                        <div class="title">
-                            <h3>Industry Expertise</h3>
-                        </div>
-
-                        <div class="content">
-                            <div class="inner-content">
-                                <h3><a href="#">Industry Expertise</a></h3>
-                                <p>Lorem ipsum dolor amet, adipiscing elit, sed do eiusmod tempor ut labore et dolore
-                                    magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                                <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-choose-box">
-                        <img src="assets/img/why-choose-us/2.png" alt="image">
-
-                        <div class="title">
-                            <h3>Expertise &amp; Leadership</h3>
-                        </div>
-
-                        <div class="content">
-                            <div class="inner-content">
-                                <h3><a href="#">Expertise &amp; Leadership</a></h3>
-                                <p>Lorem ipsum dolor amet, adipiscing elit, sed do eiusmod tempor ut labore et dolore
-                                    magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                                <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
-                    <div class="single-choose-box">
-                        <img src="assets/img/why-choose-us/3.png" alt="image">
-
-                        <div class="title">
-                            <h3>Dedicated IT Solution</h3>
-                        </div>
-
-                        <div class="content">
-                            <div class="inner-content">
-                                <h3><a href="#">Dedicated IT Solution</a></h3>
-                                <p>Lorem ipsum dolor amet, adipiscing elit, sed do eiusmod tempor ut labore et dolore
-                                    magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                                <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
         </div>
 
         <div class="shape14"><img src="assets/img/shape/13.svg" alt="image"></div>
@@ -588,27 +639,8 @@
     <!-- Start Landing Page CTA Area -->
 
 
-    <!-- <section class="cta-area jarallax" data-jarallax="{&quot;speed&quot;: 0.3}" data-jarallax-original-styles="null"
-        style="background-image: assets/img/2.png; background-attachment: scroll; background-size: auto;">
-        <div class="container">
-            <div class="cta-content">
-                <span>We Take Care of Your Technology</span>
-                <h2>Focus on Your Business</h2>
-                <a href="https://nowgray.com/contact-us/" class="btn btn-primary">Contact Us</a>
-            </div>
-        </div>
-        <div id="jarallax-container-0"
-            style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -100;">
-            <div
-                style="background-position: 50% 50%; background-size: 100%; background-repeat: no-repeat; background-image: url(assets/img/2.png;); position: fixed; top: 0px; left: 0px; width: 1519.2px; height: 854.55px; overflow: hidden; pointer-events: none; margin-left: 0px; margin-top: -188.275px; visibility: visible; transform: translateY(1142.49px) translateZ(0px);">
-            </div>
-        </div>
-    </section> -->
-
-
     <!-- End Landing Page CTA Area -->
 
-    <!-- Start Landing Page Projects Area -->
     <section class="projects-area ptb-110">
         <div class="container">
             <div class="section-title">
@@ -633,10 +665,10 @@
                         <div class="owl-item cloned" style="width: 387.5px;">
                             <div class="col-lg-12 col-md-12">
                                 <div class="single-projects-box">
-                                    <a href="#"><img src="assets/img/projects/Application.png" alt="image"></a>
+                                    <a href="#"><img src="assets/img/projects/Application-Development.png" alt="image"></a>
 
                                     <div class="projects-content">
-                                        <span>Application Development</span>
+                                        <span>Development</span>
                                         <h3><a href="#">Application Development</a></h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                             tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
@@ -649,11 +681,11 @@
                         <div class="owl-item cloned" style="width: 387.5px;">
                             <div class="col-lg-12 col-md-12">
                                 <div class="single-projects-box">
-                                    <a href="#"><img src="assets/img/projects/iOS.png" alt="image"></a>
+                                    <a href="#"><img src="assets/img/projects/Big-Data-Analysis.png" alt="image"></a>
 
                                     <div class="projects-content">
-                                        <span>Design</span>
-                                        <h3><a href="#">iOS/Android Development</a></h3>
+                                        <span>Analysis</span>
+                                        <h3><a href="#">Big Data Analysis</a></h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                             tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
                                             ultrices gravida. Risus commodo viverra maecenas.</p>
@@ -665,11 +697,11 @@
                         <div class="owl-item cloned" style="width: 387.5px;">
                             <div class="col-lg-12 col-md-12">
                                 <div class="single-projects-box">
-                                    <a href="#"><img src="assets/img/projects/API.png" alt="image"></a>
+                                    <a href="#"><img src="assets/img/projects/Cyber-Security.png" alt="image"></a>
 
                                     <div class="projects-content">
-                                        <span>Idea</span>
-                                        <h3><a href="#">API Development</a></h3>
+                                        <span>Security</span>
+                                        <h3><a href="#">Cyber Security</a></h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                             tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
                                             ultrices gravida. Risus commodo viverra maecenas.</p>
@@ -681,11 +713,11 @@
                         <div class="owl-item cloned" style="width: 387.5px;">
                             <div class="col-lg-12 col-md-12">
                                 <div class="single-projects-box">
-                                    <a href="#"><img src="assets/img/projects/Digital.png" alt="image"></a>
+                                    <a href="#"><img src="assets/img/projects/Flutter-Development.png" alt="image"></a>
 
                                     <div class="projects-content">
-                                        <span>Guard</span>
-                                        <h3><a href="#">Digital Marketing</a></h3>
+                                        <span>Development</span>
+                                        <h3><a href="#">Flutter-Development</a></h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                             tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
                                             ultrices gravida. Risus commodo viverra maecenas.</p>
@@ -697,11 +729,11 @@
                         <div class="owl-item" style="width: 387.5px;">
                             <div class="col-lg-12 col-md-12">
                                 <div class="single-projects-box">
-                                    <a href="#"><img src="assets/img/projects/Brand.png" alt="image"></a>
+                                    <a href="#"><img src="assets/img/projects/Web-Development.png" alt="image"></a>
 
                                     <div class="projects-content">
-                                        <span>Design/Idea</span>
-                                        <h3><a href="#">Brand Development</a></h3>
+                                        <span>Development</span>
+                                        <h3><a href="#">Web Development</a></h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                             tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
                                             ultrices gravida. Risus commodo viverra maecenas.</p>
@@ -732,7 +764,7 @@
                                     <a href="#"><img src="assets/img/projects/Product.png" alt="image"></a>
 
                                     <div class="projects-content">
-                                        <span>Design</span>
+                                        <span>Testing</span>
                                         <h3><a href="#">Product Testing</a></h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                             tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
@@ -742,6 +774,111 @@
                                 </div>
                             </div>
                         </div>
+
+
+
+
+
+
+
+
+
+                        <!-- <div class="owl-item active" style="width: 387.5px;">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="single-projects-box">
+                                    <a href="#"><img src="assets/img/projects/ng8.jpg" alt="image"></a>
+
+                                    <div class="projects-content">
+                                        <span>Idea</span>
+                                        <h3><a href="#">Big Data Analysis</a></h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                            ultrices gravida. Risus commodo viverra maecenas.</p>
+                                        <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item active" style="width: 387.5px;">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="single-projects-box">
+                                    <a href="#"><img src="assets/img/projects/ng9.jpg" alt="image"></a>
+
+                                    <div class="projects-content">
+                                        <span>Guard</span>
+                                        <h3><a href="#">Cyber Security</a></h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                            ultrices gravida. Risus commodo viverra maecenas.</p>
+                                        <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item cloned" style="width: 387.5px;">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="single-projects-box">
+                                    <a href="#"><img src="assets/img/projects/ng10.jpg" alt="image"></a>
+
+                                    <div class="projects-content">
+                                        <span>Design/Idea</span>
+                                        <h3><a href="#">Flutter Development</a></h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                            ultrices gravida. Risus commodo viverra maecenas.</p>
+                                        <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item cloned" style="width: 387.5px;">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="single-projects-box">
+                                    <a href="#"><img src="assets/img/projects/ng11.jpg" alt="image"></a>
+
+                                    <div class="projects-content">
+                                        <span>Design/Development</span>
+                                        <h3><a href="#">Application Development</a></h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                            ultrices gravida. Risus commodo viverra maecenas.</p>
+                                        <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item cloned" style="width: 387.5px;">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="single-projects-box">
+                                    <a href="#"><img src="assets/img/projects/ng12.jpg" alt="image"></a>
+
+                                    <div class="projects-content">
+                                        <span>Design</span>
+                                        <h3><a href="#">Web Development</a></h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                            ultrices gravida. Risus commodo viverra maecenas.</p>
+                                        <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item cloned" style="width: 387.5px;">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="single-projects-box">
+                                    <a href="#"><img src="assets/img/projects/ng6.jpg" alt="image"></a>
+
+                                    <div class="projects-content">
+                                        <span>Idea</span>
+                                        <h3><a href="#">Big Data Analysis</a></h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                            ultrices gravida. Risus commodo viverra maecenas.</p>
+                                        <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
                     </div>
                 </div>
                 <!-- <div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><i
@@ -754,7 +891,8 @@
 
         <div class="shape13"><img src="assets/img/shape/13.svg" alt="image"></div>
         <div class="shape15"><img src="assets/img/shape/13.svg" alt="image"></div>
-    </section>
+    </section>   <!-- Start Landing Page Projects Area -->
+  
     <!-- End Landing Page Projects Area -->
 
     <!-- Start Landing Page Partner Area -->
@@ -796,117 +934,7 @@
     <!-- End Landing Page Partner Area -->
 
     <!-- Start Landing Page Team Area -->
-       <!-- <section class="team-area ptb-110">
-        <div class="container">
-            <div class="section-title">
-                <div class="content">
-                    <span>Our Experts</span>
-                    <h2>Meet Our Leadership Preparing For Your Success</h2>
-                    <p><b>Akshay</b> makes things go easy with more than 10 years of extensive experience in Business Management in the Tech industry.</p>
- 
-<p><b>Harita</b> has been organizing, planning, and executing projects impeccably for the past five years. 
-  </p>
- 
-<p>
-<b>Mahesh</b> takes up the toughest challenges and that too in tight deadlines. He has six years of experience working on Government projects and for SAS companies. His  strong Tech understanding makes him an ideal team leader at Nowgray.
-</p>
- 
-<p>
-<b>Priyanka</b> is UI/UX developer and creative mind at Nowgray. She holds a good years of experience in design and illustration
-</p>
-                </div>
-
-                <div class="image">
-                    <img src="assets/img/section-title/4.png" alt="image">
-                </div>
-            </div>
-
-          <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-team-box">
-                            <div class="team-image">
-                                <img src="assets/img/team/Akshay.png" alt="image">
-
-                                <ul class="social">
-                                    <li><a href="https://www.facebook.com/akshaykmishra" target="_blank"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="flaticon-twitter-black-shape"></i></a></li>
-                                    <li><a href="https://www.instagram.com/akshaykmishra/?hl=en" target="_blank"><i class="flaticon-instagram-logo"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/akshaykmishra/" target="_blank"><i class="flaticon-linkedin-letters"></i></a></li>
-                                </ul>
-                            </div>
-
-                            <div class="team-content">
-                                <h3>Akshay Kumar Mishra</h3>
-                                <span>CEO &amp; Founder</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-team-box">
-                            <div class="team-image">
-                                <img src="assets/img/team/Harita.png" alt="image">
-
-                                <ul class="social">
-                                    <li><a href="https://www.facebook.com/singhharita" target="_blank"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="flaticon-twitter-black-shape"></i></a></li>
-                                    <li><a href="https://www.instagram.com/harita.singh/?hl=en" target="_blank"><i class="flaticon-instagram-logo"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/harita-singh/" target="_blank"><i class="flaticon-linkedin-letters"></i></a></li>
-                                </ul>
-                            </div>
-
-                            <div class="team-content">
-                                <h3>Harita Singh</h3>
-                                <span>Project Manager </span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-team-box">
-                            <div class="team-image">
-                                <img src="assets/img/team/Mahesh.png" alt="image">
-
-                                <ul class="social">
-                                    <li><a href="https://www.facebook.com/maheshpandey.ng" target="_blank"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="flaticon-twitter-black-shape"></i></a></li>
-                                    <li><a href="https://www.instagram.com/maheshpandey100/?hl=en" target="_blank"><i class="flaticon-instagram-logo"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/mahesh-pandey-7b845991/" target="_blank"><i class="flaticon-linkedin-letters"></i></a></li>
-                                </ul>
-                            </div>
-
-                            <div class="team-content">
-                                <h3>Mahesh Pandey</h3>
-                                <span>Product Manager</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-team-box">
-                            <div class="team-image">
-                                <img src="assets/img/team/Priyanka.png" alt="image">
-
-                                <ul class="social">
-                                    <li><a href="#" target="_blank"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="flaticon-twitter-black-shape"></i></a></li>
-                                    <li><a href="https://www.instagram.com/_priyankajais/?hl=en" target="_blank"><i class="flaticon-instagram-logo"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/priyanka-jaiswal-" target="_blank"><i class="flaticon-linkedin-letters"></i></a></li>
-                                </ul>
-                            </div>
-
-                            <div class="team-content">
-                                <h3>Priyanka Jaiswal</h3>
-                                <span>Creative Head</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
-
-        <div class="shape13"><img src="assets/img/shape/13.svg" alt="image"></div>
-        <div class="shape14"><img src="assets/img/shape/13.svg" alt="image"></div>
-    </section> -->
+       
     <!-- End Landing Page Team Area -->
 
     <!-- Start Landing Page Testimonials Area -->
@@ -1022,183 +1050,265 @@
     </section> -->
     <!-- End Landing Page Testimonials Area -->
 
-    <!-- Start Landing Page Blog Area -->
-    <!-- <section class="blog-area extra-pb ptb-110">
+    <!-- Start Landing Page Rating Area -->
+    
+    <div id="features" class="tabs">
         <div class="container">
-            <div class="section-title">
-                <div class="content">
-                    <span>Latest News</span>
-                    <h2>Our Latest Insights Are On Top All Times</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Quis suspendisse ultrices gravida. Risus commodo viverra maecenas
-                        accumsan lacus vel facilisis.</p>
-                </div>
-
-                <div class="image">
-                    <img src="assets/img/section-title/5.png" alt="image">
-                </div>
-            </div>
-
             <div class="row">
-                <div class="col-lg-3 col-md-4">
-                    <div class="single-blog-post sticky">
-                        <div class="entry-post-content">
-                            <div class="entry-meta">
-                                <ul>
-                                    <li><a href="#">Admin</a></li>
-                                    <li>August 16, 2020</li>
-                                </ul>
-                            </div>
-                            <h3>
-                                <a
-                                    href="https://nowgray.com/business/5-dimensions-of-designing-an-seo-friendly-website/">5
-                                    DIMENSIONS OF DESIGNING AN SEO FRIENDLY WEBSITE</a>
-                            </h3>
-                        </div>
-                    </div>
+                <div class="col-lg-12">
+                    <h2>API FEATURES</h2>
+                    <div class="p-heading p-large text-center">Leno was designed based on input from personal development coaches and popular trainers so it offers all</div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
 
-                    <div class="single-blog-post">
-                        <div class="entry-thumbnail">
-                            <a href="https://nowgray.com/business/5-dimensions-of-designing-an-seo-friendly-website/"><img
-                                    src="assets/img/blog/blog1.png" alt="image"></a>
-                        </div>
+                <!-- Tabs Links -->
+                <ul class="nav nav-tabs" id="lenoTabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true"><i class="fas fa-cog"></i>CONFIGURING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false"><i class="fas fa-binoculars"></i>TRACKING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false"><i class="fas fa-search"></i>MONITORING</a>
+                    </li>
+                </ul>
+                <!-- end of tabs links -->
 
-                        <div class="entry-post-content">
-                            <div class="entry-meta">
-                                <ul>
-                                    <li><a href="#">Admin</a></li>
-                                    <li>August 15, 2020</li>
-                                </ul>
-                            </div>
 
-                            <h3><a href="https://nowgray.com/business/seven-tips-for-moms-starting-new-venture/">SEVEN TIPS FOR MOMS STARTING NEW VENTURE</a></h3>
-                            <p>I am a mom and I know exactly how difficult it can be for any ambitious...</p>
-                            <a href="https://nowgray.com/business/seven-tips-for-moms-starting-new-venture/"
-                                class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
-                        </div>
-                    </div>
-                </div>
+                <!-- Tabs Content-->
+                <div class="tab-content" id="lenoTabsContent">
+                    
+                    <!-- Tab -->
+                    <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
+                        <div class="container">
+                            <div class="row">
+                                
+                                <!-- Icon Cards Pane -->
+                                <div class="col-lg-4">
+                                    <div class="card left-pane first">
+                                        <div class="card-body">
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Goal Setting</h4>
+                                                <p>Like any self improving process, everything starts with setting your goals and committing to them</p>
+                                            </div>
+                                            <div class="card-icon">
+                                                <i class="far fa-compass"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card left-pane">
+                                        <div class="card-body">
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Visual Editor</h4>
+                                                <p>Leno provides a well designed and ergonomic visual editor for you to edit your notes and input data</p>
+                                            </div>
+                                            <div class="card-icon">
+                                                <i class="far fa-file-code"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card left-pane">
+                                        <div class="card-body">
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Refined Options</h4>
+                                                <p>Each option packaged in the app's menus is provided in order to improve your personal development status</p>
+                                            </div>
+                                            <div class="card-icon">
+                                                <i class="far fa-gem"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of icon cards pane -->
 
-                <div class="col-lg-3 col-md-4">
-                    <div class="single-blog-post">
-                        <div class="entry-thumbnail">
-                            <a href="https://nowgray.com/business/what-is-digital-marketing/"><img
-                                    src="assets/img/blog/blog2.png" alt="image"></a>
-                        </div>
+                                <!-- Image Pane -->
+                                <div class="col-lg-4">
+                                    <img class="img-fluid" src="/assets/img/mobile2.PNG" alt="alternative">
+                                </div>
+                                <!-- end of image pane -->
+                                
+                                <!-- Icon Cards Pane -->
+                                <div class="col-lg-4">
+                                    <div class="card right-pane first">
+                                        <div class="card-body">
+                                            <div class="card-icon">
+                                                <i class="far fa-calendar-check"></i>
+                                            </div>
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Calendar Input</h4>
+                                                <p>Schedule your appointments, meetings and periodical evaluations using the provided in-app calendar option</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card right-pane">
+                                        <div class="card-body">
+                                            <div class="card-icon">
+                                                <i class="far fa-bookmark"></i>
+                                            </div>
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Easy Reading</h4>
+                                                <p>Reading focus mode for long form articles, ebooks and other materials which involve large text areas</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card right-pane">
+                                        <div class="card-body">
+                                            <div class="card-icon">
+                                                <i class="fas fa-cube"></i>
+                                            </div>
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Good Foundation</h4>
+                                                <p>Get a solid foundation for your self development efforts. Try Leno mobile app for any mobile platform</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of icon cards pane -->
 
-                        <div class="entry-post-content">
-                            <div class="entry-meta">
-                                <ul>
-                                    <li><a href="#">Admin</a></li>
-                                    <li>August 18, 2020</li>
-                                </ul>
-                            </div>
+                            </div> <!-- end of row -->
+                        </div> <!-- end of container -->
+                    </div> <!-- end of tab-pane -->
+                    <!-- end of tab -->
 
-                            <h3><a
-                                    href="https://nowgray.com/business/teamviewer-alternatives-10-best-remote-desktop-software/">TEAMVIEWER
-                                    ALTERNATIVES – 10 BEST REMOTE DESKTOP SOFTWARE</a></h3>
-                            <p>These days more and more of people are opting to work as a freelancer and more and more
-                                ....</p>
-                            <a href="https://nowgray.com/business/teamviewer-alternatives-10-best-remote-desktop-software/"
-                                class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
-                        </div>
-                    </div>
+                    <!-- Tab -->
+                    <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
+                        <div class="container">
+                            <div class="row">
 
-                    <div class="single-blog-post link">
-                        <div class="entry-post-content">
-                            <div class="entry-meta">
-                                <ul>
-                                    <li><a href="#">Admin</a></li>
-                                    <li>August 01, 2020</li>
-                                </ul>
-                            </div>
+                                <!-- Image Pane -->
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="assets/img/mobile2.PNG" alt="alternative">
+                                </div>
+                                <!-- end of image pane -->
+                                
+                                <!-- Text And Icon Cards Area -->
+                                <div class="col-md-8">
+                                    <div class="text-area">
+                                        <h3>Track Result Based On Your</h3>
+                                        <p>After you've configured the app and settled on the data gathering techniques you can not start the information trackers and start collecting those <a class="turquoise" href="#your-link">interesting details</a>. You can always change them.</p>
+                                    </div> <!-- end of text-area -->
+                                    
+                                    <div class="icon-cards-area">
+                                            <div class="card">
+                                                <div class="card-icon">
+                                                    <i class="fas fa-cube"></i>
+                                                </div>
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Good Foundation</h4>
+                                                    <p>Get a solid foundation for your self development efforts. Try Leno mobile app for any mobile platform</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-icon">
+                                                    <i class="far fa-bookmark"></i>
+                                                </div>
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Easy Reading</h4>
+                                                    <p>Reading focus mode for long form articles, ebooks and other materials which involve large text areas</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-icon">
+                                                    <i class="far fa-calendar-check"></i>
+                                                </div>
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Calendar Input</h4>
+                                                    <p>Schedule your appointments, meetings and periodical evaluations using the provided in-app calendar option</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-icon">
+                                                    <i class="far fa-file-code"></i>
+                                                </div>
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Visual Editor</h4>
+                                                    <p>Leno provides a well designed and ergonomic visual editor for you to edit your notes and input data</p>
+                                                </div>
+                                            </div>
+                                    </div> <!-- end of icon cards area -->
+                                </div> <!-- end of col-md-8 -->
+                                <!-- end of text and icon cards area -->
 
-                            <h3><a href="https://nowgray.com/business/what-is-digital-marketing/">WHAT IS DIGITAL MARKETING?</a></h3>
-                        </div>
-                    </div>
-                </div>
+                            </div> <!-- end of row -->
+                        </div> <!-- end of container -->
+                    </div> <!-- end of tab-pane -->
+                    <!-- end of tab -->
 
-                <div class="col-lg-3 col-md-4">
-                    <div class="single-blog-post quote">
-                        <div class="entry-post-content">
-                            <div class="entry-meta">
-                                <ul>
-                                    <li><a href="#">Admin</a></li>
-                                    <li>August 08, 2020</li>
-                                </ul>
-                            </div>
+                    <!-- Tab -->
+                    <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
+                        <div class="container">
+                            <div class="row">
 
-                            <h3><a
-                                    href="https://nowgray.com/business/why-startups-shouldnt-skip-these-basic-things-when-setting-up-a-website/">WHY
-                                    STARTUPS SHOULDN’T SKIP THESE BASIC THINGS WHEN SETTING UP A WEBSITE</a></h3>
-                        </div>
-                    </div>
+                                <!-- Text And Icon Cards Area -->
+                                <div class="col-md-8">
+                                    <div class="icon-cards-area">
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="far fa-calendar-check"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Calendar Input</h4>
+                                                <p>Schedule your appointments, meetings and periodical evaluations using the provided in-app calendar option</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="far fa-file-code"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Visual Editor</h4>
+                                                <p>Leno provides a well designed and ergonomic visual editor for you to edit your notes and input data</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fas fa-cube"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Good Foundation</h4>
+                                                <p>Get a solid foundation for your self development efforts. Try Leno mobile app for any mobile platform</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="far fa-bookmark"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Easy Reading</h4>
+                                                <p>Reading focus mode for long form articles, ebooks and other materials which involve large text areas</p>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end of icon cards area -->
+                                    
+                                    <div class="text-area">
+                                        <h3>Monitoring Tools Evaluation</h3>
+                                        <p>Monitor the evolution of your finances and health state using tools integrated in Leno. The generated real time reports can be filtered based on any <a class="turquoise" href="#your-link">desired criteria</a>.</p>
+                                    </div> <!-- end of text-area -->
+                                </div> <!-- end of col-md-8 -->
+                                <!-- end of text and icon cards area -->
 
-                    <div class="single-blog-post">
-                        <div class="entry-thumbnail">
-                            <a
-                                href="https://nowgray.com/business/why-startups-shouldnt-skip-these-basic-things-when-setting-up-a-website/"><img
-                                    src="assets/img/blog/blog3.png" alt="image"></a>
-                        </div>
+                                <!-- Image Pane -->
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="assets/img/mobile2.PNG" alt="alternative">
+                                </div>
+                                <!-- end of image pane -->
+                                    
+                            </div> <!-- end of row -->
+                        </div> <!-- end of container -->
+                    </div><!-- end of tab-pane -->
+                    <!-- end of tab -->
 
-                        <div class="entry-post-content">
-                            <div class="entry-meta">
-                                <ul>
-                                    <li><a href="#">Admin</a></li>
-                                    <li>August 15, 2020</li>
-                                </ul>
-                            </div>
+                </div> <!-- end of tab-content -->
+                <!-- end of tabs content -->
 
-                            <h3><a href="https://nowgray.com/business/how-to-make-a-precise-business-plan/">HOW TO MAKE A PRECISE BUSINESS PLAN</a></h3>
-                            <p>You stopped by to read this article most probably because you have to make a business...
-                            </p>
-                            <a href="https://nowgray.com/business/how-to-make-a-precise-business-plan/" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
-                        </div>
-                    </div>
-                </div>
+            </div> <!-- end of row --> 
+        </div> <!-- end of container --> 
+    </div>
 
-                <div class="col-lg-3 col-md-4">
-                    <div class="single-blog-post quote">
-                        <div class="entry-post-content">
-                            <div class="entry-meta">
-                                <ul>
-                                    <li><a href="#">Admin</a></li>
-                                    <li>August 08, 2020</li>
-                                </ul>
-                            </div>
 
-                            <h3><a href="https://nowgray.com/business/can-i-take-my-hobby-as-profession/">CAN I TAKE MY
-                                    HOBBY AS PROFESSION?</a></h3>
-                        </div>
-                    </div>
-
-                    <div class="single-blog-post">
-                        <div class="entry-thumbnail">
-                            <a href="https://nowgray.com/business/can-i-take-my-hobby-as-profession/"><img
-                                    src="assets/img/blog/blog4.png" alt="image"></a>
-                        </div>
-
-                        <div class="entry-post-content">
-                            <div class="entry-meta">
-                                <ul>
-                                    <li><a href="#">Admin</a></li>
-                                    <li>August 15, 2020</li>
-                                </ul>
-                            </div>
-
-                            <h3><a href="https://nowgray.com/business/how-to-promote-a-website/">HOW TO PROMOTE A WEBSITE?</a></h3>
-                            <p>You bought a domain and created a website. But what if nobody sees it?...</p>
-                            <a href="https://nowgray.com/business/how-to-promote-a-website/" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="shape13"><img src="assets/img/shape/13.svg" alt="image"></div>
-        <div class="shape14"><img src="assets/img/shape/13.svg" alt="image"></div>
-    </section> -->
-    <!-- End Landing Page Blog Area -->
+    <!-- End Landing Page Rating Area -->
 
     <!-- Start Landing Page Footer Area -->
     <footer class="footer-area">

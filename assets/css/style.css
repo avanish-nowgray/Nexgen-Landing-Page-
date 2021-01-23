@@ -99,13 +99,10 @@ p:last-child {
   margin-bottom: 0;
 }
 
-.ptb-110 {
-  padding-top: 110px;
-  padding-bottom: 110px;
-}
-
 .bg-f2feee {
   background-color: #f2feee;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .bg-f7f9fb {
@@ -2185,7 +2182,6 @@ CTA Area CSS
 Projects Area CSS
 =================================================*/
 .projects-area {
-  padding-bottom: 80px;
   overflow: hidden;
   position: relative;
   z-index: 1;

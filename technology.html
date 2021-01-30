@@ -1,714 +1,1360 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <!-- Place favicon.ico in the root directory -->
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="icon" href="favicon.ico">
-        <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,700,900" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
-        <title>Nowgray - Premium Software Company</title>
-        <!-- themeforest:css -->
-        <link rel="stylesheet" href="vendor.min.css">
-        <link rel="stylesheet" href="dashcore.min.css">
-        <!-- endinject -->
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
-        <!-- Making stripe menu -->
-        <nav class="st-nav navbar main-nav navigation fixed-top" id="main-nav">
+<html lang="zxx">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61989169-9"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-61989169-9');
+    </script>
+
+
+    <!-- Links of CSS files -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/progresscircle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="sideicons.html">
+
+
+    <title>Nowgray - Technology Premium Software Company</title>
+
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <style type="text/css" id="#jarallax-clip-0">
+        #jarallax-container-0 {
+            clip: rect(0 1519.2000732421875px 638.7999877929688px 0);
+            clip: rect(0, 1519.2000732421875px, 638.7999877929688px, 0);
+        }
+    </style>
+    <style type="text/css" id="#jarallax-clip-1">
+        #jarallax-container-1 {
+            clip: rect(0 1519.2000732421875px 440.20001220703125px 0);
+            clip: rect(0, 1519.2000732421875px, 440.20001220703125px, 0);
+        }
+
+        .main-banner-content {
+        position: relative;
+        z-index: 1;
+        }
+        /*--------------------------------------------------------------
+# Counter Section
+--------------------------------------------------------------*/
+.counter {
+    padding: 50px 0px;
+}
+.counter .count-card {
+    box-shadow: 25px 27px 10px -24px #e8e8e8;
+    padding: 34px;
+    width: 100%;
+    background: #fff;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    border-bottom-right-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    z-index: 99999;
+}
+.counter .count-card::after {
+    content: '';
+    position: absolute;
+    background: #ebe7e7;
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 100%;
+    transition: all 0.3s;
+    z-index: -1;
+}
+.counter .count-card:hover::after {
+    background: #ebe7e7;
+    width: 100%;
+    height: 100%;
+}
+.counter .count-card i {
+  display: block;
+  font-size: 30px;
+  color: #92D050;
+  float: left;
+}
+.counter .count-card span {
+    font-size: 42px;
+    line-height: 24px;
+    display: block;
+    font-weight: 700;
+    color: #607d8b;
+    margin-left: 50px;
+}
+.counter .count-card p {
+    font-size: 14px;
+    text-align: right;
+}
+.counter .count-card h3 {
+    font-size: 20px;
+    margin-top: 36px;
+    text-transform: uppercase;
+    text-align: right;
+    color: #607d8b;
+}
+.counter .count-card a {
+    font-weight: 600;
+    display: block;
+    border-top: 2px dashed #92D050;
+    margin-top: 20px;
+    padding-top: 20px;
+    color: #92D050;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: right;
+}
+.counter .count-card a:hover {
+    color: #607d8b;
+}
+/* Start Rating Area CSS */
+
+    /************************/
+/*     05. Features     */
+/************************/
+.tabs {
+	padding-top: 6.5rem;
+	padding-bottom: 4.25rem;
+	background-color: #f8f9fa;
+}
+
+.tabs h2 {
+	margin-bottom: 1.125rem;
+	text-align: center;
+}
+
+.tabs .p-heading {
+	margin-bottom: 3.125rem;
+}
+
+.tabs .nav-tabs {
+	margin-right: auto;
+	margin-bottom: 2.5rem;
+	margin-left: auto;
+	justify-content: center;
+	border-bottom: none;
+}
+
+.tabs .nav-link {
+	margin-bottom: 1rem;
+	padding: 0.5rem 1.375rem 0.25rem 1.375rem;
+	border: none;
+	border-bottom: 0.1875rem solid #f1f1f8;
+	border-radius: 0;
+	color: #92D050;
+	font: 700 1rem/1.75rem "Montserrat", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+.tabs .nav-link.active,
+.tabs .nav-link:hover {
+	border-bottom: 0.1875rem solid #92D050;
+	background-color: transparent;
+	color: #92D050;
+}
+
+.tabs .nav-link .fas {
+	margin-right: 0.375rem;
+	font-size: 1rem;
+}
+
+.tabs .tab-content {
+	width: 100%; /* for proper display in IE11 */
+}
+
+.tabs .card {
+	border: none;
+	background: transparent;
+}
+
+.tabs .card-body {
+	padding: 1rem 0 1.25rem 0;
+}
+
+.tabs .card-title {
+	margin-bottom: 0.5rem;
+}
+
+.tabs .card .card-icon {
+	display: inline-block;
+	width: 3.5rem;
+	height: 3.5rem;
+	border-radius: 50%;
+	background-color: #92D050;
+	text-align: center;
+	vertical-align: top;
+}
+
+.tabs .card .card-icon .fas,
+.tabs .card .card-icon .far {
+	color: #fff;
+	font-size: 1.75rem;
+	line-height: 3.5rem;
+}
+
+.tabs #tab-1 .card.left-pane .text-wrapper {
+	display: inline-block;
+	width: 75%;
+}
+
+.tabs #tab-1 .card.left-pane .card-icon {
+	float: left;
+	margin-right: 1rem;
+}
+
+.tabs #tab-1 img {
+	display: block;
+	margin: 2rem auto 3rem auto;
+}
+
+.tabs #tab-1 .card.right-pane .text-wrapper {
+	display: inline-block;
+	width: 75%;
+}
+
+.tabs #tab-1 .card.right-pane .card-icon {
+	margin-right: 1rem;
+}
+
+.tabs #tab-2 img {
+	display: block;
+	margin: 0 auto 2rem auto;
+}
+
+.tabs #tab-2 .text-area {
+	margin-top: 1.5rem;
+}
+
+.tabs #tab-2 h3 {
+	margin-bottom: 0.75rem;
+}
+
+.tabs #tab-2 .icon-cards-area {
+	margin-top: 2.5rem;
+}
+
+.tabs #tab-2 .icon-cards-area .card {
+	width: 100%; /* for proper display in IE11 */
+}
+
+.tabs #tab-3 .icon-cards-area .card {
+	width: 100%; /* for proper display in IE11 */
+}
+
+.tabs #tab-3 .text-area {
+	margin-top: 0.75rem;
+	margin-bottom: 4rem;
+}
+
+.tabs #tab-3 h3 {
+	margin-bottom: 0.75rem;
+}
+
+.tabs #tab-3 img {
+	margin: 0 auto 3rem auto;
+}
+
+/* Close Rating Area CSS */
+
+/* Start CSS Card area */
+
+nav > .nav.nav-tabs{
+
+border: none;
+  color:#fff;
+  background:#272e38;
+  border-radius:0;
+
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+border: none;
+  padding: 18px 25px;
+  color:#fff;
+  background:#272e38;
+  border-radius:0;
+}
+
+nav > div a.nav-item.nav-link.active:after
+{
+content: "";
+position: relative;
+bottom: -60px;
+left: -10%;
+border: 15px solid transparent;
+border-top-color: #92D050 ;
+}
+.tab-content{
+background: #fdfdfd;
+  line-height: 25px;
+  border: 1px solid #ddd;
+  border-top:5px solid #92D050;
+  border-bottom:5px solid #92D050;
+  padding:30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+border: none;
+  background: #92D050;
+  color:#fff;
+  border-radius:0;
+  transition:background 0.20s linear;
+}
+
+
+/* Close CSS Card area */
+    </style>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.984.0" data-gr-ext-installed="" style="cursor: auto;">
+
+    <!-- Start Landing Page Preloader Area -->
+    <div class="preloader preloader-deactivate">
+        <div class="sk-circle">
+            <div class="sk-circle1 sk-child"></div>
+            <div class="sk-circle2 sk-child"></div>
+            <div class="sk-circle3 sk-child"></div>
+            <div class="sk-circle4 sk-child"></div>
+            <div class="sk-circle5 sk-child"></div>
+            <div class="sk-circle6 sk-child"></div>
+            <div class="sk-circle7 sk-child"></div>
+            <div class="sk-circle8 sk-child"></div>
+            <div class="sk-circle9 sk-child"></div>
+            <div class="sk-circle10 sk-child"></div>
+            <div class="sk-circle11 sk-child"></div>
+            <div class="sk-circle12 sk-child"></div>
+        </div>
+    </div>
+    <!-- End Landing Page Preloader Area -->
+
+    <!-- Start Landing Page Navbar Area -->
+    <div class="navbar-area">
+        <div class="evolta-responsive-nav">
             <div class="container">
-                <ul class="st-nav-menu nav navbar-nav">
-                    <li class="st-nav-section nav-item">
-                        <a href="#main" class="navbar-brand">
-                            <img src="img/logo.png" alt="Dashcore" class="logo logo-sticky d-block d-md-none">
-                            <img src="img/logo-light.png" alt="Dashcore" class="logo d-none d-md-block">
+                <div class="evolta-responsive-menu">
+                    <div class="logo">
+                        <a href="index.html">
+                            <h2 style="color: #92D050;">NOW<span style="color: #4C4C4C;">GRAY</span></h2>
+                            <!-- <img src="assets/img/logo-gray.png" alt="logo"> -->
                         </a>
-                    </li>
-                    <li class="st-nav-section st-nav-secondary nav-item">
-                        <a class="btn btn-rounded btn-solid px-3" href="contact.html">
-                            <i class="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2"></i>
-                            <span class="d-md-none d-lg-inline">Contact Us</span>
-                        </a>
-                    </li>
-                    <!-- Mobile Navigation -->
-                    <li class="st-nav-section st-nav-mobile nav-item">
-                        <button class="st-root-link navbar-toggler" type="button">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <div class="st-popup">
-                            <div class="st-popup-container">
-                                <a class="st-popup-close-button">Close</a>
-                                <div class="st-dropdown-content-group">
-                                    <h4 class="text-uppercase regular">Pages</h4>
-                                    <a class="regular text-primary" href="about.html">
-                                        <i class="far fa-building mr-2"></i>
-                                        About 
-                                    </a>
-                                    <a class="regular text-success" href="contact.html">
-                                        <i class="far fa-envelope mr-2"></i>
-                                        Contact 
-                                    </a>
-                                    <a class="regular text-warning" href="pricing.html">
-                                        <i class="fas fa-hand-holding-usd mr-2"></i>
-                                        Pricing 
-                                    </a>
-                                    <a class="regular text-info" href="faqs.html">
-                                        <i class="far fa-question-circle mr-2"></i>
-                                        FAQs
-                                    </a>
-                                </div>
-                                <div class="st-dropdown-content-group border-top bw-2">
-                                    <h4 class="text-uppercase regular">Components</h4>
-                                    <div class="row">
-                                        <div class="col mr-4">
-                                            <a target="_blank" href="components/alert.html">Alerts</a>
-                                            <a target="_blank" href="components/badge.html">Badges</a>
-                                            <a target="_blank" href="components/button.html">Buttons</a>
-                                            <a target="_blank" href="components/color.html">Colors</a>
-                                            <a target="_blank" href="components/accordion.html">Accordion</a>
-                                            <a target="_blank" href="components/cookie-law.html">Cookielaw</a>
-                                        </div>
-                                        <div class="col mr-4">
-                                            <a target="_blank" href="components/overlay.html">Overlay</a>
-                                            <a target="_blank" href="components/progress.html">Progress</a>
-                                            <a target="_blank" href="components/lightbox.html">Lightbox</a>
-                                            <a target="_blank" href="components/tab.html">Tabs</a>
-                                            <a target="_blank" href="components/tables.html">Tables</a>
-                                            <a target="_blank" href="components/typography.html">Typography</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="st-dropdown-content-group bg-light b-t">
-                                    <a href="login.html">
-                                        Sign in <i class="fas fa-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="st-dropdown-root">
-                <div class="st-dropdown-bg">
-                    <div class="st-alt-bg"></div>
-                </div>
-                <div class="st-dropdown-arrow"></div>
-                <div class="st-dropdown-container">
-                    <div class="st-dropdown-section" data-dropdown="blocks">
-                        <div class="st-dropdown-content">
-                            <div class="st-dropdown-content-group">
-                                <div class="row">
-                                    <div class="col mr-4">
-                                        <a class="dropdown-item" target="_blank" href="blocks/call-to-action.html">Call to actions</a>
-                                        <a class="dropdown-item" target="_blank" href="blocks/contact.html">Contact</a>
-                                        <a class="dropdown-item" target="_blank" href="blocks/counter.html">Counters</a>
-                                        <a class="dropdown-item" target="_blank" href="blocks/faqs.html">FAQs</a>
-                                    </div>
-                                    <div class="col mr-4">
-                                        <a class="dropdown-item" target="_blank" href="blocks/footer.html">Footers</a>
-                                        <a class="dropdown-item" target="_blank" href="blocks/form.html">Forms</a>
-                                        <a class="dropdown-item" target="_blank" href="blocks/navbar.html">Navbar</a>
-                                        <a class="dropdown-item" target="_blank" href="blocks/navigation.html">Navigation</a>
-                                    </div>
-                                    <div class="col">
-                                        <a class="dropdown-item" target="_blank" href="blocks/pricing.html">Pricing</a>
-                                        <a class="dropdown-item" target="_blank" href="blocks/slider.html">Sliders</a>
-                                        <a class="dropdown-item" target="_blank" href="blocks/team.html">Team</a>
-                                        <a class="dropdown-item" target="_blank" href="blocks/testimonial.html">Testimonials</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="st-dropdown-content-group">
-                                <h3 class="link-title">
-                                    <i class="fas fa-long-arrow-alt-right icon"></i>
-                                    Coming soon
-                                </h3>
-                                <div class="ml-5">
-                                    <span class="dropdown-item text-secondary">Dividers </span>
-                                    <span class="dropdown-item text-secondary">Gallery </span>
-                                    <span class="dropdown-item text-secondary">Screenshots</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="st-dropdown-section" data-dropdown="pages">
-                        <div class="st-dropdown-content">
-                            <div class="st-dropdown-content-group">
-                                <div class="mb-4">
-                                    <h3 class="text-darker light text-nowrap">
-                                        <span class="bold regular">Useful pages</span>
-                                        you'll need
-                                    </h3>
-                                    <p class="text-secondary mt-0">Get a complete design stack</p>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <ul class="mr-4">
-                                            <li>
-                                                <h4 class="text-uppercase regular">Error</h4>
-                                            </li>
-                                            <li>
-                                                <a target="_blank" href="403.html">403 Error</a>
-                                            </li>
-                                            <li>
-                                                <a target="_blank" href="404.html">404 Error</a>
-                                            </li>
-                                            <li>
-                                                <a target="_blank" href="405.html">405 Error</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col">
-                                        <ul class="mr-4">
-                                            <li>
-                                                <h4 class="text-uppercase regular">User</h4>
-                                            </li>
-                                            <li>
-                                                <a target="_blank" href="login.html">Login</a>
-                                            </li>
-                                            <li>
-                                                <a target="_blank" href="register.html">Register</a>
-                                            </li>
-                                            <li>
-                                                <a target="_blank" href="forgot.html">Forgot</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col">
-                                        <ul>
-                                            <li>
-                                                <h4 class="text-uppercase regular">Extra</h4>
-                                            </li>
-                                            <li>
-                                                <a target="_blank" href="pricing.html">Pricing</a>
-                                            </li>
-                                            <li>
-                                                <a target="_blank" href="terms.html">Terms</a>
-                                            </li>
-                                            <li>
-                                                <a target="_blank" href="faqs.html">FAQ</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="st-dropdown-content-group">
-                                <a class="dropdown-item bold" href="about.html">
-                                    <i class="far fa-building icon"></i>
-                                    About 
-                                </a>
-                                <a class="dropdown-item bold" href="contact.html">
-                                    <i class="far fa-envelope icon"></i>
-                                    Contact 
-                                </a>
-                                <a class="dropdown-item bold" href="pricing.html">
-                                    <i class="fas fa-hand-holding-usd icon"></i>
-                                    Pricing
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="st-dropdown-section" data-dropdown="components">
-                        <div class="st-dropdown-content">
-                            <div class="st-dropdown-content-group">
-                                <a class="dropdown-item" target="_blank" href="components/color.html">
-                                    <div class="media mb-4">
-                                        <i class="fas fa-palette mr-2 bg-primary rounded-circle icon-md text-contrast center-flex"></i>
-                                        <div class="media-body">
-                                            <h3 class="link-title m-0">Colors</h3>
-                                            <p class="m-0 text-secondary">Get to know DashCore color options</p>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item" target="_blank" href="components/accordion.html">
-                                    <div class="media mb-4">
-                                        <i class="fas fa-bars mr-2 bg-primary rounded-circle icon-md text-contrast center-flex"></i>
-                                        <div class="media-body">
-                                            <h3 class="link-title m-0">Accordion</h3>
-                                            <p class="m-0 text-secondary">Useful accordion elements</p>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item" target="_blank" href="components/cookie-law.html">
-                                    <div class="media mb-4">
-                                        <i class="fas fa-cookie-bite mr-2 bg-primary rounded-circle icon-md text-contrast center-flex"></i>
-                                        <div class="media-body">
-                                            <h3 class="link-title m-0">CookieLaw</h3>
-                                            <p class="m-0 text-secondary">Comply with the hideous EU Cookie Law</p>
-                                        </div>
-                                    </div>
-                                </a>
-                                <h4 class="text-uppercase regular">Huge components list</h4>
-                                <div class="row">
-                                    <div class="col mr-4">
-                                        <a class="dropdown-item" target="_blank" href="components/alert.html">Alerts</a>
-                                        <a class="dropdown-item" target="_blank" href="components/badge.html">Badges</a>
-                                        <a class="dropdown-item" target="_blank" href="components/button.html">Buttons</a>
-                                    </div>
-                                    <div class="col mr-4">
-                                        <a class="dropdown-item" target="_blank" href="components/overlay.html">Overlay</a>
-                                        <a class="dropdown-item" target="_blank" href="components/progress.html">Progress</a>
-                                        <a class="dropdown-item" target="_blank" href="components/lightbox.html">Lightbox</a>
-                                    </div>
-                                    <div class="col mr-4">
-                                        <a class="dropdown-item" target="_blank" href="components/tab.html">Tabs</a>
-                                        <a class="dropdown-item" target="_blank" href="components/tables.html">Tables</a>
-                                        <a class="dropdown-item" target="_blank" href="components/typography.html">Typography</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="st-dropdown-content-group">
-                                <a class="dropdown-item" target="_blank" href="components/wizard.html">
-                                    Wizard <span class="badge badge-pill badge-primary">New</span>
-                                </a>
-                                <span class="dropdown-item d-flex align-items-center text-muted">
-                                    Timeline <i class="fas fa-ban ml-auto"></i>
-                                </span>
-                                <span class="dropdown-item d-flex align-items-center text-muted">
-                                    Process <i class="fas fa-ban ml-auto"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="st-dropdown-section" data-dropdown="blog">
-                        <div class="st-dropdown-content">
-                            <div class="st-dropdown-content-group">
-                                <div class="row">
-                                    <div class="col mr-4">
-                                        <h4 class="regular text-uppercase">Full width</h4>
-                                        <a class="dropdown-item" target="_blank" href="blog/blog-post.html">Single post</a>
-                                        <a class="dropdown-item" target="_blank" href="blog/blog-grid.html">Posts Grid</a>
-                                    </div>
-                                    <div class="col mr-4">
-                                        <h4 class="regular text-uppercase">Sidebar left</h4>
-                                        <a class="dropdown-item" target="_blank" href="blog/blog-post-sidebar-left.html">Single post</a>
-                                        <a class="dropdown-item" target="_blank" href="blog/blog-grid-sidebar-left.html">Posts Grid</a>
-                                    </div>
-                                    <div class="col mr-4">
-                                        <h4 class="regular text-uppercase">Sidebar right</h4>
-                                        <a class="dropdown-item" target="_blank" href="blog/blog-post-sidebar-right.html">Single post</a>
-                                        <a class="dropdown-item" target="_blank" href="blog/blog-grid-sidebar-right.html">Posts Grid</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="st-dropdown-section" data-dropdown="shop">
-                        <div class="st-dropdown-content">
-                            <div class="st-dropdown-content-group">
-                                <a class="dropdown-item" target="_blank" href="shop/home.html">
-                                    <div class="media align-items-center">
-                                        <div class="bg-success text-contrast icon-md center-flex rounded-circle mr-3">
-                                            <i class="fas fa-shopping-basket"></i>
-                                        </div>
-                                        <div class="media-body">
-                                            <h3 class="link-title m-0">Home</h3>
-                                            <p class="m-0 text-secondary">Online store home with an outstanding UX</p>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item" target="_blank" href="shop/cart.html">
-                                    <div class="media align-items-center">
-                                        <div class="bg-info text-contrast icon-md center-flex rounded-circle mr-3">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </div>
-                                        <div class="media-body">
-                                            <h3 class="link-title m-0">Cart</h3>
-                                            <p class="m-0 text-secondary">Online store shopping cart</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="st-dropdown-content-group">
-                                <h3 class="link-title">
-                                    <i class="fas fa-money-check-alt icon"></i>
-                                    Checkout
-                                </h3>
-                                <div class="ml-5">
-                                    <a class="dropdown-item text-secondary" target="_blank" href="shop/checkout-customer.html">
-                                        Customer <i class="fas fa-angle-right ml-2"></i>
-                                    </a>
-                                    <a class="dropdown-item text-secondary" target="_blank" href="shop/checkout-shipping.html">
-                                        Shipping Information <i class="fas fa-angle-right ml-2"></i>
-                                    </a>
-                                    <a class="dropdown-item text-secondary" target="_blank" href="shop/checkout-payment.html">
-                                        Payment Methods <i class="fas fa-angle-right ml-2"></i>
-                                    </a>
-                                    <a class="dropdown-item text-secondary" target="_blank" href="shop/checkout-confirmation.html">
-                                        Order Review <i class="fas fa-angle-right ml-2"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
-        </nav>
-        <main>
-            <!-- ./Page header -->
-            <header class="header section overlay gradient gradient-purple-blue alpha-8 text-contrast image-background cover" style="background-image: url(img/bg/waves.jpg)">
-                <div class="divider-shape">
-                    <!-- waves divider -->
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none" class="shape-waves" style="left: 0; transform: rotate3d(0,1,0,180deg);">
-                        <path class="shape-fill shape-fill-contrast" d="M790.5,93.1c-59.3-5.3-116.8-18-192.6-50c-29.6-12.7-76.9-31-100.5-35.9c-23.6-4.9-52.6-7.8-75.5-5.3c-10.2,1.1-22.6,1.4-50.1,7.4c-27.2,6.3-58.2,16.6-79.4,24.7c-41.3,15.9-94.9,21.9-134,22.6C72,58.2,0,25.8,0,25.8V100h1000V65.3c0,0-51.5,19.4-106.2,25.7C839.5,97,814.1,95.2,790.5,93.1z"/>
-                    </svg>
-                </div>
-                <div class="container-fluid">
-                    <div class="row gap-y align-items-center">
-                        <div class="col-lg-5 mx-auto text-center text-lg-left">
-                            <h1 class="light display-4 text-contrast">
-                                Delivering the tools <span class="bold d-block">you need to succeed</span>
-                            </h1>
-                            <p class="text-contrast lead my-5">It all begins by choosing the right tools, start with a complete set of design blocks to achieve your next success.</p>
-                            <a href="#" class="btn btn-contrast btn-lg btn-rounded bold px-5 bw-2 border-primary">Try it free</a>
-                        </div>
-                        <div class="col-lg-6 col-md-9 mx-md-auto mx-lg-0 pr-lg-0">
-                            <div class="device-twin align-items-center mt-4 mt-lg-0">
-                                <div class="browser shadow" data-aos="fade-left">
-                                    <img src="img/screens/dash/4.png" alt="...">
-                                </div>
-                                <div class="front iphone-x absolute d-none d-lg-block" data-aos="fade-right" style="left: -5.5rem; bottom: -3.5rem;">
-                                    <div class="screen">
-                                        <img src="img/screens/app/1.png" alt="...">
-                                    </div>
-                                    <div class="notch"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-            <!-- ./Features - grid -->
-            <section id="features" class="section edge bottom-right bg-contrast">
-                <div class="container pb-5">
-                    <div class="section-heading mb-6 text-center">
-                        <span class="rounded-pill shadow-box badge badge-info bold py-2 px-4">DashCore features</span>
-                        <h2 class="mt-3">What DashCore can do for you</h2>
-                    </div>
-                    <div class="row gap-y text-center text-md-left">
-                        <div class="col-md-4 py-4 rounded shadow-hover">
-                            <i data-feather="lock" width="36" height="36" class="text-info mb-2"></i>
-                            <h5 class="bold">Security included</h5>
-                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolores ea fugiat nesciunt quisquam. Assumenda dolore error nulla pariatur voluptatem?</p>
-                        </div>
-                        <div class="col-md-4 py-4 rounded shadow-hover">
-                            <i data-feather="wind" width="36" height="36" class="text-info mb-2"></i>
-                            <h5 class="bold">Easily theme-able</h5>
-                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolores ea fugiat nesciunt quisquam. Assumenda dolore error nulla pariatur voluptatem?</p>
-                        </div>
-                        <div class="col-md-4 py-4 rounded shadow-hover">
-                            <i data-feather="box" width="36" height="36" class="text-info mb-2"></i>
-                            <h5 class="bold">Plugins included</h5>
-                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolores ea fugiat nesciunt quisquam. Assumenda dolore error nulla pariatur voluptatem?</p>
-                        </div>
-                        <div class="col-md-4 py-4 rounded shadow-hover">
-                            <i data-feather="sliders" width="36" height="36" class="text-info mb-2"></i>
-                            <h5 class="bold">Professional tools</h5>
-                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolores ea fugiat nesciunt quisquam. Assumenda dolore error nulla pariatur voluptatem?</p>
-                        </div>
-                        <div class="col-md-4 py-4 rounded shadow-hover">
-                            <i data-feather="target" width="36" height="36" class="text-info mb-2"></i>
-                            <h5 class="bold">Ready-to-use content</h5>
-                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolores ea fugiat nesciunt quisquam. Assumenda dolore error nulla pariatur voluptatem?</p>
-                        </div>
-                        <div class="col-md-4 py-4 rounded shadow-hover">
-                            <i data-feather="bar-chart" width="36" height="36" class="text-info mb-2"></i>
-                            <h5 class="bold">Powerful analytics</h5>
-                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolores ea fugiat nesciunt quisquam. Assumenda dolore error nulla pariatur voluptatem?</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ./Bring to life - Swiper -->
-            <section class="section bg-light">
-                <div class="container bring-to-front">
-                    <div class="row gap-y align-items-center">
-                        <div class="col-md-6">
-                            <div class="rounded bg-primary-gradient shadow">
-                                <div class="d-flex flex-column align-items-center py-3">
-                                    <img src="img/bg/asset-1.svg" class="img-responsive w-50" alt="">
-                                </div>
-                            </div>
-                            <div class="rounded shadow-box bg-contrast mt-3">
-                                <div class="media align-items-center px-3">
-                                    <i data-feather="bar-chart" class="stroke-primary mr-3" width="36" height="36"></i>
-                                    <div class="media-body my-3 pl-3 b-l">
-                                        <p class="bold text-primary my-0">Admin template included</p>
-                                        <p class="my-0 text-secondary">We've included a fully functional starter admin dashboard</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="rounded shadow-box bg-contrast mt-3">
-                                <div class="media align-items-center px-3">
-                                    <i data-feather="smartphone" width="36" height="36" class="stroke-primary mr-3"></i>
-                                    <div class="media-body my-3 pl-3 b-l">
-                                        <p class="bold text-primary my-0">Powered with multiple starter apps</p>
-                                        <p class="my-0 text-secondary">It's awesome you to have a nice feature to show up</p>
-                                        <hr class="my-3">
-                                        <nav id="sw-nav-1" class="nav nav-tabs tabs-clean border-bottom-0">
-                                            <a href="javascript:;" class="nav-item nav-link pl-md-0 py-0 d-flex flex-column align-items-center border-bottom-0 active" data-step="1">
-                                                <i data-feather="mail" class="icon"></i>
-                                                <span class="d-none small">Inbox</span>
-                                            </a>
-                                            <a href="javascript:;" class="nav-item nav-link py-0 d-flex flex-column align-items-center border-bottom-0" data-step="2">
-                                                <i data-feather="calendar" class="icon"></i>
-                                                <span class="d-none small">Calendar</span>
-                                            </a>
-                                            <a href="javascript:;" class="nav-item nav-link py-0 d-flex flex-column align-items-center border-bottom-0" data-step="3">
-                                                <i data-feather="file" class="icon"></i>
-                                                <span class="d-none small">Invoice</span>
-                                            </a>
-                                        </nav>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 ml-md-auto text-center text-md-left">
-                            <span class="rounded-pill shadow-box badge badge-info bold py-2 px-4">Simple and transparent</span>
-                            <h2 class="mt-3">Bring your application to life</h2>
-                            <p class="text-secondary">Dashcore includes an outstanding starter Admin Dashboard UI Interface. With this feature you can start developing right away your web application.</p>
-                            <hr>
-                            <div class="swiper-container" data-sw-navigation="#sw-nav-1" data-sw-navigation-active="active">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <figure class="shadow-box">
-                                            <img src="img/screens/dash/inbox.png" alt="" class="img-responsive rounded">
-                                        </figure>
-                                        <p class="small text-center text-danger">Clean inbox UI design</p>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <figure class="shadow-box">
-                                            <img src="img/screens/dash/calendar.png" alt="" class="img-responsive rounded">
-                                        </figure>
-                                        <p class="small text-center text-danger">Outstanding calendar UI design</p>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <figure class="shadow-box">
-                                            <img src="img/screens/dash/invoice.png" alt="" class="img-responsive rounded">
-                                        </figure>
-                                        <p class="small text-center text-danger">Draft purchases with the invoice feature</p>
-                                    </div>
+        </div>
+
+        <div class="evolta-nav">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="index.html">
+                        <h2 style="color: #92D050;">NOW<span style="color: #4C4C4C;">GRAY</span></h2>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- End Landing Page Navbar Area -->
+
+    <!-- Start Landing Page Main Banner Area -->
+    <div class="main-banner">
+        <div class="container-fluid p-0">
+            <div class="row m-0">
+                <div class="col-lg-12 col-md-12 p-0">
+                    <div class="main-banner-content">
+                        <div class="d-table">
+                            <div class="d-table-cell">
+                                <h1 style="text-align: center;">API Development Services &</h1>
+                                <h1 style="text-align: center;">Integration Solutions</h1>
+                                <!-- <p>If you are thinking to bring your business online, you are thinking right. This is
+                                    the time to do so changes in business presence. Please see the following steps that
+                                    are needed to get your business online and reach customers across the globe…</p> -->
+
+                                <div class="btn-box" style="text-align: center;">
+                                    <!-- <a href="#" class="btn btn-primary">Read More</a> -->
+                                    <a href="https://nowgray.com/" class="btn btn-light">Get Started</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- ./Why DashCore -->
-            <section class="section bg-light">
-                <div class="container bring-to-front pb-0">
-                    <div class="section-heading text-center w-75 mx-auto">
-                        <h2>Why Dashcore template?</h2>
-                        <p class="lead text-secondary">When you're looking for a template you want it to stand-out. Dashcore comes with hundreds of customizable features addressed to developers and designers.</p>
+
+                <!-- <div class="col-lg-5 col-md-12 p-0">
+                    <div class="main-banner-image">
+                        <img src="assets/img/banner-img1.png" alt="image">
+
+                        <a href="https://www.youtube.com/watch?v=rrdzvfXXt3k" class="video-btn popup-youtube"><i
+                                class="flaticon-play-button"></i></a>
                     </div>
-                    <div class="shadow bg-contrast p-5 rounded">
-                        <nav class="nav nav-tabs tabs-clean slide d-inline-flex mb-4">
-                            <a class="nav-item nav-link text-uppercase bold active" data-toggle="tab" href="#designers">Developers </a>
-                            <a class="nav-item nav-link text-uppercase bold" data-toggle="tab" href="#developers">Designers</a>
-                        </nav>
-                        <div class="tab-content">
-                            <div class="tab-pane active" id="designers">
-                                <div class="row gap-y">
-                                    <div class="col-lg-6">
-                                        <h2 class="bold mb-4">Engaging developers with organized code</h2>
-                                        <p class="lead text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cumque deleniti facere ipsa laborum saepe, tenetur ullam? Consequatur, deserunt eaque facilis hic, illo laboriosam minima quae quia temporibus totam vel.</p>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="shape1"><img src="assets/img/shape/1.png" alt="image"></div>
+        <div class="shape2"><img src="assets/img/shape/2.png" alt="image"></div>
+        <div class="shape3"><img src="assets/img/shape/3.png" alt="image"></div>
+        <div class="shape4"><img src="assets/img/shape/4.png" alt="image"></div>
+        <div class="shape5"><img src="assets/img/shape/5.png" alt="image"></div>
+        <div class="shape6"><img src="assets/img/shape/6.png" alt="image"></div>
+        <div class="shape7"><img src="assets/img/shape/7.png" alt="image"></div>
+        <div class="shape8"><img src="assets/img/shape/8.png" alt="image"></div>
+        <div class="shape9"><img src="assets/img/shape/9.png" alt="image"></div>
+        <div class="shape10"><img src="assets/img/shape/10.png" alt="image"></div>
+        <div class="shape11"><img src="assets/img/shape/11.png" alt="image"></div>
+        <div class="shape12"><img src="assets/img/shape/12.png" alt="image"></div>
+    </div>
+    <!-- End Landing Page Main Banner Area -->
+
+    <!-- Start Landing Page Services Area -->
+    <section class="services-area ptb-110">
+        <div class="container">
+            <div class="section-title">
+                <div class="text-center">
+                    <!-- <span>Our Services</span> -->
+                    <h2>Industry Experienced Developers, On-Demand</h2>
+                    <p>Our developers specialize in developing APIs that are reliable, well-documented, and easy to consume. APIs are fundamentally changing how data
+                        can be used, and opening up entirely new business models and strategies for products. They allow flexible integrations and customization of
+                        existing products, enabling our developers to enrich and enhance services in new and creative ways.</p>
+                </div>
+
+                <!-- <div class="image">
+                    <img src="assets/img/section-title/1.png" alt="image">
+                </div> -->
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-services-box">
+                        <div class="icon">
+                            <i class="flaticon-plugin"></i>
+                        </div>
+
+                        <h3><a href="#">Custom API Development</a></h3>
+                        <p>Our custom Application Programming Interface (API) solutions
+                            cover the development, integration, publishing,
+                            documentation, deployment, and continuous maintenance of
+                            APIs. We develop robust API architectures and security
+                            protocols, like custom key encryptions, access control
+                            dashboards, single sign-on and scalable caching proxies.</p>
+                        <!-- <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a> -->
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-services-box">
+                        <div class="icon">
+                            <i class="flaticon-computer-graphic"></i>
+                        </div>
+
+                        <h3><a href="#">On-Demand API Developers</a></h3>
+                        <p>We are proud to employ developers with a variety of API
+                            development experience in an array of industries. This
+                            enables us to be a one-stop shop, removing the hassles of
+                            managing multiple vendors, logistics, and technological
+                            bottlenecks. Over the past 8 years we’ve grown our
+                            capabilities in this area to become one of the leading experts
+                            in custom API development.</p>
+                        <!-- <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a> -->
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-services-box">
+                        <div class="icon">
+                            <i class="flaticon-analysis"></i>
+                        </div>
+
+                        <h3><a href="#">API AS A Service </a></h3>
+                        <p>We develop web APIs and API as a Service (APIaaS). We
+                            provide HTTP/HTTPS, JSON, Java, XML, XHTML, EDI, AJAX, SOAP
+                            and REST API development services. We are expertied in .NET
+                            CORE, Web API, NodeJs, PHP Web services etc. We can also
+                            help you with Amazon API, Ecomdash API, Plaid API, HipComic
+                            API, NFL/NHL API, Shipstation API, Wayfair API, QVC & other 
+                            warehouses API.</p>
+                        <!-- <a href="#" class="read-more-btn">Read More <i class="flaticon-add-1"></i></a> -->
+                    </div>
+                </div>
+        </div>
+
+        <div class="shape13"><img src="assets/img/shape/13.svg" alt="image"></div>
+        <div class="shape14"><img src="assets/img/shape/13.svg" alt="image"></div>
+    </section>
+    <!-- End Landing Page Services Area -->
+    
+
+    <!-- Start Landing Page Why Choose Us Area -->
+    <section class="why-choose-area ptb-110">
+        <div class="container">
+            <h2 class="text-center pb-4">API Development Experts</h2>
+            <div class="section-title">
+                <div class="image">
+                    <img src="assets/api.png" alt="image">
+                </div>
+
+                <div class="content">
+                    <!-- <span>Why choose us</span>
+                    <h2>7 YEARS OF EXPERIENCE</h2> -->
+                    <h5>8 Years of experience</h5>
+                    <p> Our developers are highly expert in developing great API Projects, we can
+                        implement Mobile backend, desktop backend, other multi platform backend
+                        system with real time databases and SQL databases. We did lots of projects in
+                        many areas eg: ECommerce, Accounting, Utility, Finances, Customer Based
+                        Application, Informational based APIs</p>
+
+                        <h5 class="pt-4">Implementing Business Model</h5>
+                    <p> We work with you to find the areas that are best suited to bring you value. Based
+                        on your needs, our flexible business model gives you the option to increase or
+                        decrease the size of your dedicated team at any point of the lifecycle.</p>
+
+                        <h5 class="pt-4">You Own Source Code</h5>
+                    <p> Most software companies insist on owning their own source codes to prevent
+                        their clients from seeking out other vendors or tools. Under our agreement, you
+                        are the sole proprietor of the source code and intellectual property.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="shape14"><img src="assets/img/shape/13.svg" alt="image"></div>
+        <div class="shape15"><img src="assets/img/shape/13.svg" alt="image"></div>
+    </section>
+    <!-- End Landing Page Why Choose Us Area -->
+
+    <!-- Start Landing Page FunFacts Area -->
+    <!-- ======= Counter Section ======= -->
+    <section class="counter bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="count-card">
+                        <i class="far fa-smile"></i>
+                        <span data-toggle="counter-up">131+</span>
+                        <h3>Happy Clients</h3>
+                        <p>We have real happy customers from all over the world.</p>
+                       
+                    </div>
+                </div>
+
+              <div class="col-lg-3 col-md-6">
+                    <div class="count-card">
+                        <i class="fas fa-project-diagram"></i>
+                        <span data-toggle="counter-up">202+</span>
+                        <h3>BACKEND BUILT</h3>
+                        <p>Yeaaa! We developed more than 200 backend API's in past few years.</p>
+                        
+                    </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6">
+                    <div class="count-card">
+                        <i class="far fa-question-circle"></i>
+                        <span data-toggle="counter-up">26+</span>
+                        <h3>Support</h3>
+                        <p>We have a number of clients with On-Going Support & Maintenance</p>
+                        
+                    </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6">
+                    <div class="count-card">
+                        <i class="fas fa-users"></i>
+                        <span data-toggle="counter-up">14+</span>
+                        <h3>Our Team</h3>
+                        <p>A truely dedicated team of developers ready to help you</p>
+                        
+                    </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!-- End counter Section -->
+    <!-- End Landing Page FunFacts Area -->
+
+    <!-- Start Landing Page CTA Area -->
+
+
+    <!-- End Landing Page CTA Area -->
+
+    <section class="projects-area ptb-110">
+        <div class="container">
+            <div class="section-title">
+                <div class="content">
+                    <span>Recent projects</span>
+                    <h2>Proud Projects</h2>
+                    <p>We have completed more than 100 projects in our development journey, We
+                        helped many businesses with Amazon API, Ecomdash API, Plaid API, HipComic API,
+                        NFL/NHL API, Shipstation API, Wayfair API, QVC & other warehouses API..</p>
+                </div>
+
+                <div class="image">
+                    <img src="assets/img/section-title/3.png" alt="image">
+                </div>
+            </div>
+        </div>
+
+        <div class="shape13"><img src="assets/img/shape/13.svg" alt="image"></div>
+        <div class="shape15"><img src="assets/img/shape/13.svg" alt="image"></div>
+    </section>   <!-- Start Landing Page Projects Area -->
+  
+    <!-- End Landing Page Projects Area -->
+
+       
+    <!-- Start Landing Page Rating Area -->
+    
+    
+
+    <!-- Start Landing page card area -->
+    
+    <div class="container my-4">
+
+        <h3 class="font-weight-bold text-center">Our API Development Systems Delivers Cutting-Edge Third Party Integration Services</h3>
+    
+        <hr class="my-4">
+    
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+    
+            <!--First slide-->
+            <div class="carousel-item active">
+    
+              <div class="row">
+
+                <div class="col-md-3">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="assets/img/allapi.png" alt="Card image cap">
+                      <p class="card-title" style="position: relative; bottom: 175px; text-align: center; font-size: 20px; color: black;">API Library<br>Development </p>
+                  </div>
+                </div>
+    
+                <div class="col-md-3 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="assets/img/api2.png"alt="Card image cap">
+                    <div class="card-body">
+                      <h6 class="card-title">Google API Development Solutions</h6>
+                      <!-- <p class="card-text">We develop custom Google Applications for Google Play Store Distribution through Google Play API Development. 
+                          Google Maps API development allow proprietary software to 
+                          be modified to use the all of the features found when using Google maps.</p>
+                      <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                    </div>
+                  </div>
+                </div>
+                  
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Betfair API and QuickBooks Integration</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">GraphQL API Development and Integration</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Ecomdash API Integration</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">NFL/NHL API</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Twilo API integration</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">RubyHas API & Warehouse integration</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Plaid API Integration</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Event API</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Cross Sell/Up Sell API</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">HipComic API</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Wayfair API</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Jane.com API</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">QVC/GroupON API</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+
+              </div>
+            </div>
+            <!--/.First slide-->
+    
+            
+    
+          </div>
+          <!--/.Slides-->
+    
+    
+      </div>
+
+      <div class="container my-4">
+
+        <h3 class="font-weight-bold text-center">Our API Development E-Commerce Services</h3>
+    
+        <hr class="my-4">
+    
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+    
+            <!--First slide-->
+            <div class="carousel-item active">
+    
+              <div class="row">
+                
+                <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Shopify API Integration</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">PrestaShop API Integration</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">OpenCart API Integration</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">BigCommerce API Integration</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Amazon API</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Shipping API</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">CS-Cart API Integration</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Shopify App API</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Etsy API Integration</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="assets/img/api3.png"alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Magento API Integration</h6>
+                        <!-- <p class="card-text">We use GraphQL to improve your application’s scalability and 
+                            performance. Our developers utilize GraphQL as a query language for your API, 
+                            and a server-side runtime for executing queries by using a type system you 
+                            define for your data.</p>
+                        <a class="btn btn-primary text-white" style="cursor: pointer;">View</a> -->
+                      </div>
+                    </div>
+                  </div>
+
+
+              </div>
+            </div>
+            <!--/.First slide-->
+    
+            
+    
+          </div>
+          <!--/.Slides-->
+    
+    
+      </div>
+
+
+    <!-- Start Landing page card area -->
+
+    <!-- Start Landing Page Footer Area -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <div class="logo" style="text-align: left;">
+                            <a href="#"><img src="assets/img/logo-new11.png" alt="image"></a>
+                            <!-- <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.</p> -->
+                        </div>
+
+                        <ul class="social">
+                            <li><a href="https://www.facebook.com/Nowgray/" target="_blank"><i
+                                        class="flaticon-facebook-letter-logo"></i></a></li>
+                            <li><a href="https://twitter.com/nowgrayc?lang=en" target="_blank"><i
+                                        class="flaticon-twitter-black-shape"></i></a></li>
+                            <li><a href="https://www.instagram.com/nowgray/" target="_blank"><i
+                                        class="flaticon-instagram-logo"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCFrFhD9EH6XVOpgUDtBaHWg" target="_blank"><i
+                                        class="flaticon-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h3>Services</h3>
+
+                        <ul class="footer-services-list">
+                            <li><a href="#">Product Engineering</a></li>
+                            <li><a href="#">UX/UI Design</a></li>
+                            <li><a href="#">Big Data Analysis</a></li>
+                            <li><a href="#">Desktop Applications</a></li>
+                            <li><a href="#">Mobile Applications</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h3>Quick Links</h3>
+
+                        <ul class="quick-links-list">
+                            <li><a href="https://nowgray.com/about/">About Us</a></li>
+                            <li><a href="https://nowgray.com/business/">Blog</a></li>
+                            <li><a href="https://nowgray.com/contact-us/">Contact</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Applications</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h3>Contacts</h3>
+
+                        <ul class="footer-contact-list">
+                            <li><span>Address:</span> 29-PV Sector-14, Indira Nagar 226016 Lucknow Uttar Pradesh India
+                            </li>
+                            <li><span>Email:</span> <a href="#">nowgray@gmail.com</a></li>
+                            <li><span>Phone:</span> <a href="#">+91 888 136 1111</a></li>
+                            <li><span>Whatsapp:</span> <a href="#">+91 888 136 1111</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <p>Copyright 2021 <a href="https://nowgray.com/">Nowgray</a>. All Rights Reserved.</p>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms &amp; Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="circle-map"><img src="assets/img/circle-map.png" alt="image"></div>
+    </footer>
+    <!-- End Landing Page Footer Area -->
+
+    <div class="go-top"><i class="fas fa-arrow-up"></i><i class="fas fa-arrow-up"></i></div>
+
+    <!-- Links of JS files -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/parallax.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jquery.meanmenu.js"></script>
+    <script src="assets/js/progresscircle.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/contact-form-script.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+<div id="vidcor-container">
+    <link rel="stylesheet" href="chrome-extension://hfadalcgppcbffdnichplalnmhjbabbm/css/cadcom.css" type="text/css">
+    <link rel="stylesheet" href="chrome-extension://hfadalcgppcbffdnichplalnmhjbabbm/css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap" rel="stylesheet">
+
+    <!--Action frame start--->
+    <div id="cc-recording-web" class="recording-option-popup-container">
+        <!-- <iframe src="about:blank" style="visibility:hidden;" allowtransparency="true" application="yes" allow="microphone;camera;speaker;" id="cc-recording-web"
+            frameBorder="0" style=""></iframe> -->
+    </div>
+    <!---End-->
+
+    <!--Gmail frame add Start-->
+    <div id="cc-video-search" style="z-index: 99999999999999999;position: fixed;top: 5%;left:20%;">
+
+    </div>
+    <!--End-->
+    <!--2f Login frame add Start-->
+    <div id="fde-2flogin-frame" style="z-index: 99999999999999999;position: fixed;top: 5%;left:30%;">
+
+    </div>
+    <!--End-->
+    <!--Video frame start--->
+    <div id="cc-recording-block" class="video-frame-css" style="display: none;z-index: 99999999999999999">
+        <div class="cc-personal-recorder-view show" id="vcc-ffcam-container">
+            <table>
+                <tbody>
+                    <tr>
+                        <td id="vcc-left-position"></td>
+                        <td>
+                            <!--<div class="timer_count" id="vcc-timer-elem"></div>-->
+                            <div class="timer_count" id="vcc-timer-elem" style="display: none;"></div>
+                            <div class="cc-ffcam-view-wrap" style="display: inline-block;">
+                                <div class="cc-ffcam-view  size-1" id="vcc-video-frame">
+                                    <div class="cc-watching cc-watching" id="video-watch-id" style="display: none;">
+
                                     </div>
-                                    <div class="col-lg-6">
-                                        <figure class="px-2">
-                                            <img src="img/screens/developer.png" class="img-responsive shadow rounded" alt="...">
-                                        </figure>
+                                    <div class="cc-ffcam-iframe-container" id="vidcor-video-frame">
+                                        <!--<video id="vidcor-ff-cam" class="cc-zoom1" autoplay="autoplay"></video>-->
+                                        <img id="vidcor-ff-img" style="width:100%;	object-fit:cover; height:100%;"
+                                            onerror="this.onerror=null;this.src='chrome-extension://hfadalcgppcbffdnichplalnmhjbabbm/images/user.jpeg';">
+                                        <iframe
+                                            src="chrome-extension://hfadalcgppcbffdnichplalnmhjbabbm/template/iframe.html"
+                                            id="vidcor-ff-cam" class="cc-zoom1" allow="camera;microphone"></iframe>
+
                                     </div>
+                                    <div class="cc-camera-size-tooltip">
+                                        <div class="size-button size-1 vcc-cam-zoom1 active"></div>
+                                        <div class="size-button size-2 vcc-cam-zoom2"></div>
+                                        <div class="size-button size-3 vcc-cam-zoom3"></div>
+                                    </div>
+                                    <span class="cc-ffcam-close size-1"></span>
+                                    <span class="cc-flipcamera" id="vcc-flip-camera"></span>
                                 </div>
                             </div>
-                            <div class="tab-pane" id="developers">
-                                <div class="row gap-y">
-                                    <div class="col-lg-6">
-                                        <h2 class="bold mb-4">Engaging designers with tons of design elements</h2>
-                                        <p class="lead text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cumque deleniti facere ipsa laborum saepe, tenetur ullam? Consequatur, deserunt eaque facilis hic, illo laboriosam minima quae quia temporibus totam vel.</p>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <figure class="px-2">
-                                            <img src="img/screens/designer.png" class="img-responsive shadow rounded" alt="...">
-                                        </figure>
-                                    </div>
-                                </div>
+                        </td>
+                        <td valign="bottom" id="vcc-right-position">
+                            <div class="cc-bubble-menu enabled" style="width: 320px;">
+                                <table class="cc-edit-blk" id="cc-pen-editor" style="display: none;">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div style="width:28px">&nbsp;</div>
+                                            </td>
+                                            <td>
+                                                <div class="cc-menu-item pentool">
+                                                    <img id="cc-editor-close" class="clr"
+                                                        src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAASFBMVEUAAABjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P////AwMDIyMjCwsLg4OC0tLS3t7e1tbVsieFHAAAAD3RSTlMAVAbz4KyJW9vkA6aU1wd9q5ACAAAAg0lEQVQY022Q3Q7DIAhGUbFa2+2zf9v7v+kIJYtpOBcqRwkIKTEsnNJrCZH+hAqjBlNtwsDUVKobrObiQZAas+znDmU/ZZkjFQhH3yBsXS8LZdzhYYuQiWH2uuS5wpRw8+39Y8fky+qku4Xclrzm3/43/YFQW0e3Nn/IRiyZAc4lavgD8JQSUl6NNs0AAAAASUVORK5CYII=">
+                                                    <ul>
+                                                        <li>
+                                                            <input type="color" value="#ff0000" id="penColorVal"
+                                                                name="penColor" class="inptcol">
+                                                        </li>
+                                                        <li>
+                                                            <p class="cc-tooltip cc-pen-thikness">
+                                                                <span>&nbsp;</span><span
+                                                                    class="cc-tooltip-hint">2px</span></p>
+
+                                                        </li>
+                                                        <li>
+                                                            <p class="cc-tooltip cc-pen-thikness act">
+                                                                <span>&nbsp;</span><span
+                                                                    class="cc-tooltip-hint">6px</span></p>
+                                                        </li>
+                                                        <li>
+                                                            <p class="cc-tooltip cc-pen-thikness">
+                                                                <span>&nbsp;</span><span
+                                                                    class="cc-tooltip-hint">8px</span></p>
+                                                        </li>
+                                                        <li>
+                                                            <p class="cc-tooltip cc-pen-thikness">
+                                                                <span>&nbsp;</span><span
+                                                                    class="cc-tooltip-hint">12px</span></p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+
+                                <table class="cc-edit-blk" id="vcc-draw-elem" style="display: none;">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div style="width:28px">&nbsp;</div>
+                                            </td>
+                                            <td class="drawingToolHideShow" id="vcc-draw-pen" style="display: none;">
+                                                <div id="vcc-draw-active" class="cc-menu-item cc-edit cc-pencil">
+                                                    <span class="cc-menu-item-hint">Pen</span>
+                                                </div>
+                                            </td>
+                                            <td class="drawingToolHideShow" id="vcc-draw-eraser" style="display: none;">
+                                                <div class="cc-menu-item cc-edit cc-eraser">
+                                                    <span class="cc-menu-item-hint">Eraser</span>
+                                                </div>
+                                            </td>
+                                            <td class="drawingToolHideShow" id="vcc-enable-click"
+                                                style="display: none;">
+                                                <div class="cc-menu-item cc-edit cc-enable">
+                                                    <span class="cc-menu-item-hint">Enable Click</span>
+                                                </div>
+                                            </td>
+
+                                            <td class="drawingToolHideShow" id="vcc-clear-draw" style="display: none;">
+                                                <div class="cc-menu-item cc-edit cc-clear">
+                                                    <span class="cc-menu-item-hint">Clear paint (Alt + z)</span>
+                                                </div>
+                                            </td>
+
+                                            <td class="mouseToolHideShow" id="vcc-draw-highlight"
+                                                style="display: none;">
+                                                <div class="cc-menu-item cc-edit cc-mouse">
+                                                    <span class="cc-menu-item-hint">Highlight Mouse</span>
+                                                </div>
+                                            </td>
+                                            <td class="mouseToolHideShow" id="vcc-cursor-focus" style="display: none;">
+                                                <div class="cc-menu-item cc-edit cc-focus">
+                                                    <span class="cc-menu-item-hint">Focus Mouse</span>
+                                                </div>
+                                            </td>
+
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table class="cc-edit-blk">
+                                    <tbody>
+                                        <tr>
+                                            <td id="vcc-hide-menu-btn">
+                                                <div class="cc-menu-item cc-menu">
+                                                    ...
+                                                    <span class="cc-menu-item-hint">Hide Menu (Alt + c)</span>
+                                                </div>
+                                            </td>
+                                            <td id="control-menu-id" style="display: block;">
+                                                <table>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td id="vcc-cam-setting-btn" class="vcc-menu-items"
+                                                                style="display: none">
+                                                                <div class="cc-menu-item cc-camera-setting">
+                                                                    <span class="cc-menu-item-hint">Camera
+                                                                        settings</span>
+                                                                </div>
+                                                            </td>
+                                                            <td id="vcc-cancel-btn" class="vcc-menu-items">
+                                                                <div class="cc-menu-item cc-cancel-recording">
+                                                                    <span class="cc-menu-item-hint">Cancel Recording
+                                                                        (Alt + q)</span>
+                                                                </div>
+                                                            </td>
+                                                            <td id="vcc-pause-btn" class="vcc-menu-items">
+                                                                <div class="cc-menu-item cc-pause-recording">
+                                                                    <span class="cc-menu-item-hint">Pause</span>
+                                                                </div>
+                                                            </td>
+                                                            <td id="vcc-resume-btn" class="vcc-menu-items"
+                                                                style="display: none">
+                                                                <div class="cc-menu-item cc-resume-recording">
+                                                                    <span class="cc-menu-item-hint">Resume</span>
+                                                                </div>
+                                                            </td>
+                                                            <td id="vcc-init-btn" class="vcc-menu-items">
+                                                                <div class="cc-menu-item cc-start-recording">
+                                                                    <span class="cc-menu-item-hint">Start (Alt +
+                                                                        s)</span>
+                                                                </div>
+                                                            </td>
+                                                            <td id="vcc-stop-btn" class="vcc-menu-items"
+                                                                style="display: none">
+                                                                <div class="cc-menu-item cc-finish-recording">
+                                                                    <span class="cc-menu-item-hint">Finish (Alt +
+                                                                        w)</span>
+                                                                </div>
+                                                            </td>
+                                                            <td id="vcc-timer-elem1" class="vcc-menu-items"></td>
+
+
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ./How to Videos -->
-            <section class="section bg-darker edge top-left">
-                <div class="container pt-8">
-                    <div class="section-heading text-center w-75 mx-auto">
-                        <h2 class="text-contrast bold">How to videos</h2>
-                        <p class="lead text-contrast">Take a look at how you can take advantage of the tons of features included with our template.</p>
-                    </div>
-                    <div class="row gap-y">
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <div class="card shadow-box shadow-hover border-0">
-                                <a href="https://www.youtube.com/watch?v=EykWcFEtFqo" class="modal-popup mfp-iframe overlay gradient gradient-blue-purple alpha-3 p-6 image-background cover" style="background-image: url(https://picsum.photos/350/200/?random&gravity=south)" data-effect="mfp-fade" data-type="iframe">
-                                    <div class="content text-center">
-                                        <i data-feather="play" width="48" height="48" stroke-width="1" class="stroke-contrast"></i>
-                                    </div>
-                                </a>
-                                <div class="card-body">
-                                    <h4 class="card-title regular">Welcome to Dashcore</h4>
-                                    <p class="card-text text-secondary">Discover how to get started with DashCore now.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <div class="card shadow-box shadow-hover border-0">
-                                <a href="https://www.youtube.com/watch?v=MXghcI8hcWU" class="modal-popup mfp-iframe overlay gradient gradient-blue-purple alpha-3 p-6 image-background cover" style="background-image: url(https://picsum.photos/350/200/?random&gravity=east)" data-effect="mfp-fade" data-type="iframe">
-                                    <div class="content text-center">
-                                        <i data-feather="play" width="48" height="48" stroke-width="1" class="stroke-contrast"></i>
-                                    </div>
-                                </a>
-                                <div class="card-body">
-                                    <h4 class="card-title regular">Customizing theme</h4>
-                                    <p class="card-text text-secondary">Learn how to fit the theme to your own needs.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <div class="card shadow-box shadow-hover border-0">
-                                <a href="https://www.youtube.com/watch?v=HLG_s9b2Uuw" class="modal-popup mfp-iframe overlay gradient gradient-blue-purple alpha-3 p-6 image-background cover" style="background-image: url(https://picsum.photos/350/200/?random&gravity=north)" data-effect="mfp-fade" data-type="iframe">
-                                    <div class="content text-center">
-                                        <i data-feather="play" width="48" height="48" stroke-width="1" class="stroke-contrast"></i>
-                                    </div>
-                                </a>
-                                <div class="card-body">
-                                    <h4 class="card-title regular">Using the API</h4>
-                                    <p class="card-text text-secondary">Integrating the API with your new template.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ./Brands -->
-            <section class="section bg-light">
-                <div class="container">
-                    <div class="row gap-y">
-                        <div class="col-md-3 col-xs-4 col-6 px-md-5">
-                            <img src="img/logos/1.png" alt="" class="img-responsive mx-auto op-7" style="max-height: 60px;">
-                        </div>
-                        <div class="col-md-3 col-xs-4 col-6 px-md-5">
-                            <img src="img/logos/2.png" alt="" class="img-responsive mx-auto op-7" style="max-height: 60px;">
-                        </div>
-                        <div class="col-md-3 col-xs-4 col-6 px-md-5">
-                            <img src="img/logos/3.png" alt="" class="img-responsive mx-auto op-7" style="max-height: 60px;">
-                        </div>
-                        <div class="col-md-3 col-xs-4 col-6 px-md-5">
-                            <img src="img/logos/4.png" alt="" class="img-responsive mx-auto op-7" style="max-height: 60px;">
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ./Join - As Developer/Designer -->
-            <section class="section bg-light">
-                <div class="container bring-to-front py-0">
-                    <div class="shadow bg-contrast p-5 rounded">
-                        <div class="row gap-y align-items-center text-center text-lg-left">
-                            <div class="col-12 col-md-6 py-4 px-5 b-md-r">
-                                <i data-feather="star" width="36" height="36" class="stroke-primary"></i>
-                                <a href="javascript:;" class="mt-4 text-primary d-flex align-items-center">
-                                    <h4 class="mr-3">Join as Designer</h4>
-                                    <i class="fas fa-long-arrow-alt-right"></i>
-                                </a>
-                                <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, consequuntur fugit minima natus optio quisquam sint sunt? Earum harum in laudantium nobis obcaecati odio, praesentium, quis sequi soluta vel veniam.</p>
-                            </div>
-                            <div class="col-12 col-md-6 py-4 px-5">
-                                <i data-feather="code" width="36" height="36" class="stroke-info"></i>
-                                <a href="javascript:;" class="mt-4 text-info d-flex align-items-center">
-                                    <h4 class="mr-3">Join as Developer</h4>
-                                    <i class="fas fa-long-arrow-alt-right"></i>
-                                </a>
-                                <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, consequuntur fugit minima natus optio quisquam sint sunt? Earum harum in laudantium nobis obcaecati odio, praesentium, quis sequi soluta vel veniam.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ./CTA - Create Account -->
-            <section class="section bg-contrast edge top-left b-b">
-                <div class="container pt-5">
-                    <div class="d-flex align-items-center flex-column flex-md-row">
-                        <div class="text-center text-md-left">
-                            <p class="light mb-0 text-primary lead">Ready to get started?</p>
-                            <h2 class="mt-0">Create an account now</h2>
-                        </div>
-                        <a href="register.html" class="btn btn-primary btn-rounded mt-3 mt-md-0 ml-md-auto">Create DashCore account</a>
-                    </div>
-                </div>
-            </section>
-            <!-- ./Footer - Four Columns -->
-            <footer class="site-footer section">
-                <div class="container pb-3">
-                    <div class="row gap-y text-center text-md-left">
-                        <div class="col-md-4 mr-auto">
-                            <img src="img/logo.png" alt="" class="logo">
-                            <p>Dashcore, a carefully crafted and powerful HTML5 template, it's perfect to showcase your startup or software</p>
-                        </div>
-                        <div class="col-md-2">
-                            <h6 class="py-2 bold">Company</h6>
-                            <nav class="nav flex-column">
-                                <a class="nav-item py-2" href="about.html">About</a>
-                                <a class="nav-item py-2" href="#">Services</a>
-                                <a class="nav-item py-2" href="blog/blog-grid.html">Blog</a>
-                            </nav>
-                        </div>
-                        <div class="col-md-2">
-                            <h6 class="py-2 bold">Product</h6>
-                            <nav class="nav flex-column">
-                                <a class="nav-item py-2" href="#">Features</a>
-                                <a class="nav-item py-2" href="#">API</a>
-                                <a class="nav-item py-2" href="#">Customers</a>
-                            </nav>
-                        </div>
-                        <div class="col-md-2">
-                            <h6 class="py-2 bold">Channels</h6>
-                            <nav class="nav flex-column">
-                                <a class="nav-item py-2" href="#">Careers</a>
-                                <a class="nav-item py-2" href="#">Contact</a>
-                                <a class="nav-item py-2" href="#">Search</a>
-                            </nav>
-                        </div>
-                    </div>
-                    <hr class="mt-5">
-                    <div class="row small align-items-center">
-                        <div class="col-md-4">
-                            <p class="mt-2 mb-md-0 text-secondary text-center text-md-left">© 2018 5studios. All Rights Reserved</p>
-                        </div>
-                        <div class="col-md-8">
-                            <nav class="nav justify-content-center justify-content-md-end">
-                                <a href="#" class="btn btn-circle btn-sm btn-secondary mr-3 op-4">
-                                    <i class="fab fa-facebook"></i>
-                                </a>
-                                <a href="#" class="btn btn-circle btn-sm btn-secondary mr-3 op-4">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#" class="btn btn-circle btn-sm btn-secondary op-4">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </main>
-        <!-- themeforest:js -->
-        <script src="js/lib.min.js"></script>
-        <script src="js/dashcore.min.js"></script>
-        <!-- endinject -->
-    </body>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--End-->
+
+    <!-- ---------------------------------------------------------------------------------- -->
+</div>
+
 </html>

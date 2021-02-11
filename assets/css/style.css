@@ -1148,10 +1148,11 @@ Main Banner Area CSS
 }
 
 .main-banner-content p {
-  font-size: 14.5px;
-  max-width: 620px;
+  font-size: 20.5px;
   margin-top: 25px;
   margin-bottom: 0;
+  letter-spacing: 1.5px;
+  font-weight: 300;
 }
 
 .main-banner-content .btn-box {

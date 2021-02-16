@@ -339,6 +339,35 @@ border: none;
     text-align: center;  
     color: #000000;
 }
+.main-banner-content {
+    height: 480px;
+    position: relative;
+    z-index: 1;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+element.style {
+}
+.btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
+    color: #212529;
+    background-color: #dae0e5;
+    border-color: #d3d9df;
+}
+.main-banner-content .btn-box .btn-light {
+    margin-left: 15px;
+}
+
+.btn-light:hover, 
+.btn-light:focus{
+    background-color: #92D050;
+}
+
+.btn-light{
+    border-radius: 30px;
+}
+
 @media only screen and (max-width: 600px) {
   .technologyimage {
     text-align: center;
@@ -575,7 +604,7 @@ border: none;
         <div class="container-fluid bg-light">
             <h1 class="pt-5 pb-5" style="text-align: center;"><strong>Cross-Platform</strong></h1>
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                 </div>
                 <div class="col-lg-2 col-md-6 col-sm-12 technologyimage pl-5">
                     <img src="assets/img/ionic.png"  alt="">
@@ -589,7 +618,7 @@ border: none;
                     <img src="assets/img/React.png" alt="">
                     <h5 class="card-title text-center"><strong>React</strong></h5>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                 </div>
             </div>
         </div>
@@ -638,6 +667,9 @@ border: none;
         <div class="container">
             <p style="font-size: 50px; letter-spacing: 5px; text-align: center; padding-top: 100px; padding-bottom: 50px; color: #808080;"><strong>Back-end</strong></p>
             <div class="row">
+                <div class="col-lg-2">
+                    <!-- <img src="assets/img/Typescript1.png" alt=""> -->
+                </div>
                 <div class="col-lg-2 col-md-6 col-sm-12 technologyimage">
                     <img src="assets/img/nodejs.png" style="width: 110px; height: 110px;"  alt="">
                     <h5 class="card-title pl-4"><strong>Node.Js</strong></h5>
@@ -654,7 +686,7 @@ border: none;
                     <img src="assets/img/Python.png" style="width: 110px; height: 110px;"  alt="">
                     <h5 class="card-title pl-4"><strong>Python</strong></h5>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-2">
                     <!-- <img src="assets/img/Typescript1.png" alt=""> -->
                 </div>
             </div>
@@ -668,7 +700,7 @@ border: none;
         <div class="container">
             <p style="font-size: 50px; letter-spacing: 5px; text-align: center; padding-top: 100px; padding-bottom: 50px; color: #808080;"><strong>Databases</strong></p>
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-2">
                     <!-- <img src="assets/img/Typescript1.png" alt=""> -->
                 </div>
                 <div class="col-lg-2 col-md-6 col-sm-12 text-center">
@@ -686,6 +718,9 @@ border: none;
                 <div class="col-lg-2 col-md-6 col-sm-12 text-center">
                     <img src="assets/img/firebase.png" alt="">
                     <h5 class="card-title text-center"><strong>Firebase</strong></h5>
+                </div>
+                <div class="col-lg-2">
+                    <!-- <img src="assets/img/Typescript1.png" alt=""> -->
                 </div>
             </div>
         </div>
@@ -729,7 +764,8 @@ border: none;
             <p class="tech1">Ready for a <i>Nowgray</i> to make your</p>
             <p class="tech1">dreams come true?</p>
         <div class="text-center pb-5">
-            <button type="button" class="btn btn-primary" style="padding: 20px 80px;"><a href="#" style="color: white;">SETUP A FREE MEETING</a></button>
+            <button class="btn btn-primar y">
+            <a href="#" style="color: white;" class="btn-light">SETUP A FREE MEETING</a></button>
         </div>
     </div>
     <div class="container">

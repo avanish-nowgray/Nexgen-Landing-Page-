@@ -915,6 +915,7 @@ Navbar Area CSS
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  display: none;
 }
 
 .evolta-nav .navbar .others-options .option-item .search-btn::before {
